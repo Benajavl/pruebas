@@ -68,7 +68,8 @@ function fetchData(isUpdate = false) {
   // interpretan la ruta literalmente. En servidores HTTP agregamos un timestamp
   // para evitar el cache.
   const isFileProtocol = window.location.protocol === 'file:';
-  const dataUrl = isFileProtocol ? 'data.json' : 'data.json?ts=' + Date.now();
+  // Usar ruta relativa explícita con ./ para que funcione tanto en directorio raíz como en subcarpetas
+  const dataUrl = isFileProtocol ? './data.json' : './data.json?ts=' + Date.now();
   fetch(dataUrl, { cache: 'no-store' })
     .then(resp => resp.json())
     .then(data => {
@@ -79,6 +80,12 @@ function fetchData(isUpdate = false) {
     })
     .catch(err => {
       console.error('No se pudieron cargar los datos.', err);
+      // Mostrar mensaje de error en la interfaz
+      const errorDiv = document.getElementById('error');
+      if (errorDiv) {
+        errorDiv.textContent = 'No se pudieron cargar los datos JSON. Si estás abriendo el archivo localmente, utiliza un servidor web como python -m http.server para evitar bloqueos del navegador.';
+        errorDiv.hidden = false;
+      }
     });
 }
 
@@ -88,6 +95,17 @@ function fetchData(isUpdate = false) {
  * @param {object} data Objeto con información de pozos y metadatos.
  */
 function updateDashboard(data) {
+  // Ocultar mensaje de error al actualizar la vista
+  const errorDiv = document.getElementById('error');
+  if (errorDiv) {
+    errorDiv.hidden = true;
+    errorDiv.textContent = '';
+  }
+  // Estructurar los datos para obtener la propiedad wells a partir de items
+  const structured = parseWellsFromData(data);
+  // Insertar la propiedad wells en data para compatibilidad con funciones existentes
+  data.wells = structured.wells;
+  // Llenar la interfaz
   populateKpi(data);
   renderWellControls(data);
   renderTables(data);
@@ -114,16 +132,26 @@ function populateKpi(data) {
   // Calcular métricas básicas
   const wellsCount = data.wells.length;
   const totalStages = data.wells.reduce((acc, well) => acc + well.etapas.length, 0);
-  const totalDepth = data.wells.reduce((acc, well) => acc + well.etapas.reduce((s, e) => s + e.profundidad, 0), 0);
-  const avgDepth = totalStages > 0 ? Math.round(totalDepth / totalStages) : 0;
+  // Calcular profundidad promedio considerando solo valores numéricos
+  let totalDepth = 0;
+  let depthCount = 0;
+  data.wells.forEach(well => {
+    well.etapas.forEach(etapa => {
+      if (typeof etapa.profundidad === 'number') {
+        totalDepth += etapa.profundidad;
+        depthCount++;
+      }
+    });
+  });
+  const avgDepth = depthCount > 0 ? Math.round(totalDepth / depthCount) : 0;
   const lastUpdate = data.lastUpdate ? new Date(data.lastUpdate) : null;
 
   // Definir KPIs a mostrar; cada entrada tiene título y valor
   const kpis = [
     { title: 'Pozos', value: wellsCount },
     { title: 'Etapas totales', value: totalStages },
-    { title: 'Profundidad promedio', value: avgDepth + ' m' },
-    { title: 'Última actualización', value: lastUpdate ? lastUpdate.toLocaleDateString() : 'N/A' }
+    { title: 'Prof. promedio', value: depthCount > 0 ? avgDepth + ' m' : 'N/A' },
+    { title: 'Actualización', value: lastUpdate ? lastUpdate.toLocaleDateString() : 'N/A' }
   ];
   // Construir las tarjetas
   kpis.forEach(kpi => {
@@ -212,7 +240,7 @@ function renderTables(data) {
       const fechaHoraTd = document.createElement('td');
       fechaHoraTd.textContent = etapa.fechaHora;
       const profundidadTd = document.createElement('td');
-      profundidadTd.textContent = etapa.profundidad;
+      profundidadTd.textContent = etapa.profundidad === null || etapa.profundidad === undefined ? '' : etapa.profundidad;
       const fracturaTd = document.createElement('td');
       fracturaTd.textContent = etapa.fechaFractura;
       tr.appendChild(etapaTd);
@@ -236,12 +264,25 @@ function renderTables(data) {
 function updateFooter(data) {
   const footer = document.getElementById('footer');
   const footerContent = document.getElementById('footerContent');
+  let content = '';
+  // Mostrar la tabla de stock si existe
+  if (data && Array.isArray(data.stock) && data.stock.length > 0) {
+    content += '<table><thead><tr><th>Item</th><th>Stock</th></tr></thead><tbody>';
+    data.stock.forEach(item => {
+      content += `<tr><td>${item.ITEM}</td><td>${item.STOCK}</td></tr>`;
+    });
+    content += '</tbody></table>';
+  }
+  // Mostrar la fecha de última actualización si existe
   if (data && data.lastUpdate) {
     const lastUpdateDate = new Date(data.lastUpdate);
-    footerContent.textContent = 'Datos actualizados al ' + lastUpdateDate.toLocaleString();
+    content += `<div class="last-update">Última actualización: ${lastUpdateDate.toLocaleString()}</div>`;
+  }
+  if (content) {
+    footerContent.innerHTML = content;
     footer.hidden = false;
   } else {
-    footerContent.textContent = '';
+    footerContent.innerHTML = '';
     footer.hidden = true;
   }
 }
@@ -284,4 +325,88 @@ function disableAutoScroll() {
     clearInterval(intervalId);
   });
   autoScrollIntervals.clear();
+}
+
+/**
+ * Convierte una fecha en formato Excel (número serial) a objeto Date.
+ * Excel cuenta los días desde 1899-12-31; se resta 25569 para convertir
+ * a la época Unix (1970-01-01). Si no es numérico, retorna null.
+ * @param {string|number} serial
+ * @returns {Date|null}
+ */
+function excelSerialToDate(serial) {
+  const num = parseFloat(serial);
+  if (isNaN(num)) return null;
+  const unixTimestamp = (num - 25569) * 86400 * 1000;
+  return new Date(unixTimestamp);
+}
+
+/**
+ * Transforma la estructura del JSON original en un formato con la propiedad
+ * "wells", cada una con su nombre y lista de etapas. Una etapa contiene
+ * el número de etapa (fila), la fecha y hora convertidas, la profundidad (numérica
+ * si aplica) y la fecha de fractura. Las filas sin número se omiten.
+ * @param {object} data Objeto original con la propiedad items.
+ * @returns {object} Objeto con un array "wells".
+ */
+function parseWellsFromData(data) {
+  const result = { wells: [] };
+  if (!data || !Array.isArray(data.items) || data.items.length === 0) {
+    return result;
+  }
+  // La primera fila contiene los nombres de los pozos (TPNPozoX)
+  const headerRow = data.items[0] || {};
+  // Crear hasta seis pozos con nombres extraídos de la cabecera
+  for (let i = 1; i <= 6; i++) {
+    const nameKey = `TPNPozo${i}`;
+    const altKey = `FechaFracPozo${i}`;
+    const name = headerRow[nameKey] || headerRow[altKey] || `Pozo ${i}`;
+    result.wells.push({ name: name, etapas: [] });
+  }
+  // Recorrer filas a partir de la tercera fila (índice 2) para etapas
+  for (let j = 2; j < data.items.length; j++) {
+    const row = data.items[j];
+    if (!row) continue;
+    const stageLabel = (row.Fila || '').trim();
+    if (!stageLabel) continue;
+    for (let i = 1; i <= 6; i++) {
+      const well = result.wells[i - 1];
+      const secKey = `SecuenciaPozo${i}`;
+      const tpnKey = `TPNPozo${i}`;
+      const fracKey = `FechaFracPozo${i}`;
+      const secVal = row[secKey];
+      const tpnVal = row[tpnKey];
+      const fracVal = row[fracKey];
+      // Convertir fecha y hora
+      let fechaHoraStr = '';
+      if (secVal && !isNaN(parseFloat(secVal))) {
+        const dateObj = excelSerialToDate(secVal);
+        fechaHoraStr = dateObj ? dateObj.toLocaleString() : '';
+      }
+      // Convertir profundidad si es numérica
+      let profundidadVal = null;
+      if (tpnVal && !isNaN(parseFloat(tpnVal))) {
+        profundidadVal = parseFloat(tpnVal);
+      }
+      // Convertir fecha de fractura (puede ser numérica o texto)
+      let fechaFracStr = '';
+      if (fracVal) {
+        if (!isNaN(parseFloat(fracVal))) {
+          const fracDate = excelSerialToDate(fracVal);
+          fechaFracStr = fracDate ? fracDate.toLocaleDateString() : '';
+        } else {
+          fechaFracStr = fracVal;
+        }
+      }
+      well.etapas.push({
+        etapa: stageLabel,
+        fechaHora: fechaHoraStr,
+        profundidad: profundidadVal,
+        fechaFractura: fechaFracStr
+      });
+    }
+  }
+  // Filtrar pozos sin etapas
+  result.wells = result.wells.filter(well => well.etapas.length > 0);
+  return result;
 }
