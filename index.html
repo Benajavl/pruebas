@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard de Pozos</title>
+  <!-- Estilos generales -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Encabezado principal con control de navegación y KPIs -->
+  <header id="header">
+    <div class="header-left">
+      <!-- Botón para abrir/cerrar el menú lateral en dispositivos pequeños -->
+      <button id="menuToggle" aria-label="Mostrar u ocultar el menú">☰</button>
+      <h1>Dashboard de Pozos</h1>
+    </div>
+    <!-- Contenedor para las tarjetas KPI generado dinámicamente -->
+    <div id="kpi-container"></div>
+    <!-- Control de tema oscuro/claro -->
+    <div id="themeToggleContainer">
+      <label class="theme-switch">
+        <input type="checkbox" id="themeToggle" aria-label="Activar modo oscuro">
+        <span class="slider"></span>
+        <span class="switch-label">Modo oscuro</span>
+      </label>
+    </div>
+  </header>
+
+  <!-- Menú lateral para navegación entre páginas -->
+  <nav id="sidebar" aria-label="Navegación">
+    <h2>Navegación</h2>
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <!-- Elementos de navegación futuros pueden agregarse aquí -->
+    </ul>
+  </nav>
+
+  <!-- Contenedor principal del contenido -->
+  <main id="main">
+    <!-- Controles para seleccionar pozos y activar auto-scroll -->
+    <section id="controls">
+      <!-- Aquí se insertan los checkboxes para cada pozo -->
+      <div id="wellControls"></div>
+      <!-- Control para activar/desactivar el auto desplazamiento vertical de las tablas -->
+      <label class="auto-scroll-label">
+        <input type="checkbox" id="autoScrollToggle">
+        Auto desplazamiento
+      </label>
+    </section>
+    <!-- Contenedor de las tablas generadas a partir de los pozos -->
+    <div id="tables-wrapper"></div>
+  </main>
+
+  <!-- Pie de página que se mostrará solo si hay información específica -->
+  <footer id="footer" hidden>
+    <p id="footerContent"></p>
+  </footer>
+
+  <!-- Lógica del lado del cliente para manejar datos y eventos -->
+  <script src="script.js"></script>
+</body>
+</html>
