@@ -1,0 +1,602 @@
+/*
+ * Estilos básicos y configuración de colores para modo claro y oscuro.
+ * Utilizamos variables CSS para facilitar el cambio de temas sin frameworks.
+ */
+
+/* Variables de tema por defecto (modo claro) */
+:root {
+  /* Paleta suave para modo claro */
+  --bg-color: #fafafa;
+  --text-color: #222831;
+  --card-bg: #ffffff;
+  --card-shadow: rgba(0, 0, 0, 0.08);
+  --accent-color: #3a5ba0;
+  --accent-color-light: #e8eef8;
+  --border-radius: 0.5rem;
+  --table-header-bg: #f3f6fa;
+  --table-row-hover-bg: #f0f4f8;
+  --table-border-color: #d0d7e5;
+}
+
+/* Variables para el modo oscuro */
+body.dark {
+  /* Paleta suave para modo oscuro */
+  --bg-color: #1a1c1f;
+  --text-color: #e5e7eb;
+  --card-bg: #24262b;
+  --card-shadow: rgba(0, 0, 0, 0.6);
+  --accent-color: #5c7dc0;
+  --accent-color-light: #2a3150;
+  --table-header-bg: #2c2f36;
+  --table-row-hover-bg: #313640;
+  --table-border-color: #3c4350;
+}
+
+/* Estilos globales */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Si el footer está oculto con el atributo hidden, asegurarnos que no ocupe espacio */
+footer[hidden] {
+  display: none !important;
+}
+
+/* Encabezado */
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 0.5rem 1rem;
+  background-color: var(--card-bg);
+  box-shadow: 0 2px 4px var(--card-shadow);
+  z-index: 1000;
+  position: sticky;
+  top: 0;
+  gap: 0.5rem;
+}
+
+/* Fila superior del encabezado con título y controles */
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Evitar que las filas del header colapsen al reducir el ancho/alto */
+.header-top, #kpi-row {
+  flex: 0 0 auto;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.header-left h1 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+/* Botón de menú */
+#menuToggle {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+#menuToggle:focus {
+  outline: 2px solid var(--accent-color);
+}
+
+/* Contenedor KPI */
+#kpi-container {
+  display: flex;
+  gap: 0.75rem;
+  /* Mantener todas las tarjetas en una sola línea; permitir scroll horizontal si no caben */
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 1rem;
+  padding: 0.25rem 0.5rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.kpi-card {
+  background-color: var(--card-bg);
+  box-shadow: 0 2px 4px var(--card-shadow);
+  border-radius: var(--border-radius);
+  padding: 0.75rem 1rem;
+  min-width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  /* No permitir que las tarjetas se reduzcan en pantallas pequeñas */
+  flex: 0 0 auto;
+}
+
+.kpi-card .kpi-title {
+  font-size: 0.75rem;
+  color: var(--accent-color);
+  margin-bottom: 0.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.kpi-card .kpi-value {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+/* Selector de tema (slider) */
+.theme-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.theme-switch input[type="checkbox"] {
+  display: none;
+}
+
+.theme-switch .slider {
+  position: relative;
+  width: 40px;
+  height: 20px;
+  background-color: var(--table-header-bg);
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.theme-switch .slider::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: var(--accent-color);
+  transition: transform 0.3s ease;
+}
+
+.theme-switch input[type="checkbox"]:checked + .slider::before {
+  transform: translateX(20px);
+}
+
+/* Ocultar label del toggle por accesibilidad; se muestra solo en pantallas pequeñas */
+.switch-label {
+  font-size: 0.8rem;
+}
+
+/* Contenedor del interruptor de tema y botón de configuración en el encabezado */
+#controlsHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+/* Botón de configuración (icono engranaje) */
+.settings-button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--text-color);
+  padding: 0.25rem 0.5rem;
+  border-radius: var(--border-radius);
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.settings-button:hover {
+  background-color: var(--accent-color-light);
+  color: var(--accent-color);
+}
+
+/* Modal para configuración */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 2000;
+}
+
+.modal.show {
+  display: flex;
+}
+
+.modal-content {
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  padding: 1.5rem;
+  border-radius: var(--border-radius);
+  min-width: 320px;
+  max-width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 2px 8px var(--card-shadow);
+}
+
+/* Secciones dentro del modal de configuración */
+.settings-section {
+  margin-bottom: 1rem;
+}
+.settings-section h3 {
+  font-size: 0.95rem;
+  margin-bottom: 0.25rem;
+  color: var(--accent-color);
+}
+.settings-tip {
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
+}
+/* Acciones en el modal */
+.settings-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+.settings-actions button {
+  padding: 0.4rem 0.75rem;
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background-color 0.2s ease;
+}
+.settings-actions .settings-save {
+  background-color: var(--accent-color);
+  color: #fff;
+}
+.settings-actions .settings-reset {
+  background-color: var(--accent-color-light);
+  color: var(--text-color);
+}
+.settings-actions .settings-save:hover {
+  background-color: var(--accent-color);
+  opacity: 0.9;
+}
+.settings-actions .settings-reset:hover {
+  background-color: var(--accent-color-light);
+  opacity: 0.9;
+}
+
+.modal-content h2 {
+  margin-bottom: 1rem;
+}
+
+.close-modal {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--text-color);
+}
+
+.close-modal:hover {
+  color: var(--accent-color);
+}
+
+/* Menú lateral */
+#sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 240px;
+  background-color: var(--card-bg);
+  box-shadow: 2px 0 5px var(--card-shadow);
+  padding: 1rem;
+  overflow-y: auto;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+  z-index: 999;
+}
+
+/* Mostrar menú cuando tiene la clase open */
+#sidebar.open {
+  transform: translateX(0);
+}
+
+#sidebar h2 {
+  margin-bottom: 1rem;
+}
+
+#sidebar ul {
+  list-style: none;
+}
+
+#sidebar li {
+  margin-bottom: 0.5rem;
+}
+
+#sidebar a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+#sidebar a:hover {
+  color: var(--accent-color);
+}
+
+/* Ajustar posición del contenido principal cuando el menú está abierto en pantallas grandes */
+#main {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin-left: 0;
+  transition: margin-left 0.3s ease;
+}
+
+#main.shifted {
+  /* Eliminado el menú lateral, por lo que no se aplica desplazamiento */
+  margin-left: 0;
+}
+
+/* Controles */
+/* Ocultar completamente la sección de controles heredada */
+#controls {
+  display: none !important;
+}
+
+/* Estilos para controles de pozos se definen en el modal */
+
+/* Auto-scroll label styling */
+.auto-scroll-label {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.85rem;
+}
+
+/* Contenedor de tablas. Para la tabla unificada se usa scroll horizontal cuando hay muchas columnas */
+#tables-wrapper {
+  flex: 1 1 auto;
+  display: block;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+}
+
+/* Permitir desplazamiento suave y foco visible para navegación con mando/teclado (TV) */
+#tables-wrapper:focus {
+  outline: 3px solid var(--accent-color);
+  outline-offset: 4px;
+}
+
+#tables-wrapper {
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Estilo para mensajes de error */
+.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+  padding: 0.75rem;
+  border-radius: var(--border-radius);
+  margin-bottom: 1rem;
+}
+
+/* Contenedor individual de cada tabla con auto scroll vertical */
+.table-container {
+  background-color: var(--card-bg);
+  box-shadow: 0 2px 4px var(--card-shadow);
+  border-radius: var(--border-radius);
+  padding: 0.5rem;
+  /* Para la tabla unificada, se expandirá según el contenido */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.table-container h3 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  color: var(--accent-color);
+}
+
+.table-wrapper-inner {
+  overflow-y: auto;
+  max-height: 300px; /* Altura limitada para poder auto-scroll */
+  border: 1px solid var(--table-header-bg);
+  border-radius: var(--border-radius);
+  /* Proveer espacio inferior para que al hacer scroll al final
+     no se visualicen filas vacías como contenido. Esto añade un
+     margen interno debajo de la última fila con datos. */
+  padding-bottom: 1rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  /* Aumentar tamaño de fuente para mejor visibilidad en pantallas grandes
+     como televisores. 1rem es equivalente al tamaño base del cuerpo y
+     proporciona un texto más legible que el 0.8rem anterior. */
+  font-size: 1.6rem;
+  white-space: nowrap;
+}
+
+/* Pantallas muy grandes: aumentar tipografía para mejor lectura */
+@media (min-width: 1400px) {
+  body { font-size: 18px; }
+  .kpi-card .kpi-title { font-size: 0.95rem; }
+  .kpi-card .kpi-value { font-size: 1.8rem; }
+  th, td { padding: 1rem; }
+  table { font-size: 2rem; }
+  /* Hora más grande en pantallas grandes */
+  .time-part { font-size: 2.4rem; }
+}
+
+/* Estilos para la celda de fecha y hora dividida en dos líneas */
+.date-part {
+  font-weight: 600;
+  display: block;
+  line-height: 1.1;
+}
+.time-part {
+  /* Aumentar el tamaño de la hora para mayor visibilidad */
+  font-size: 1.6rem;
+  color: var(--text-color);
+  display: block;
+}
+
+/* Estilo para la profundidad (tapon) resaltada */
+.prof-tapon {
+  margin-top: 0.25rem;
+  display: block;
+}
+.prof-tapon .tapon-value {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: var(--accent-color);
+}
+.prof-tapon .tapon-value.tapon-empty {
+  color: #aaa;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+.prof-tapon .tapon-unit {
+  font-size: 1.1rem;
+  color: var(--accent-color);
+  font-weight: 500;
+  margin-left: 0.2em;
+}
+
+th, td {
+  /* Incrementar el relleno para dar más espacio alrededor del texto,
+     mejorando la legibilidad en pantallas grandes como televisores */
+  padding: 1rem 0.75rem;
+  text-align: left;
+  /*modificacion 04/10/2025 para centrar texto y lineas tablas*/
+  text-align: center;
+  border-right: 1px solid #ccc
+}
+
+th {
+  position: sticky;
+  top: 0;
+  background-color: var(--accent-color-light);
+  color: var(--accent-color);
+  z-index: 1;
+  border: 1px solid var(--table-border-color);
+}
+
+/* Ajuste de sticky para filas de cabecera múltiples: la segunda fila debe quedar debajo de la primera */
+thead tr:first-child th {
+  top: 0;
+}
+thead tr:nth-child(2) th {
+  /* Altura aproximada de la primera fila de encabezado */
+  top: 3rem;
+}
+
+tr:nth-child(even) {
+  background-color: var(--accent-color-light);
+  border: 1px solid var(--table-border-color);
+}
+
+tr:hover {
+  background-color: var(--table-row-hover-bg);
+}
+
+/* Pie de página */
+#footer {
+  margin-top: auto;
+  padding: 0.75rem 1rem;
+  background-color: var(--card-bg);
+  text-align: center;
+  box-shadow: 0 -2px 4px var(--card-shadow);
+}
+
+/* Contenedor interior del pie de página; las tarjetas se muestran horizontalmente */
+#footer #footerContent {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  #main.shifted {
+    /* No mover el contenido en pantallas pequeñas */
+    margin-left: 0;
+  }
+  /* Esconder el texto de la barra lateral, solo mostrar iconos si existiesen */
+  #sidebar ul li {
+    margin-bottom: 1rem;
+  }
+  /* Ajustar tabla en pantallas pequeñas */
+  .table-container {
+    min-width: 240px;
+  }
+}
+
+@media (max-width: 480px) {
+  .kpi-card {
+    min-width: 120px;
+    padding: 0.5rem;
+  }
+  .header-left h1 {
+    font-size: 1rem;
+  }
+}
+
+/* Ajustes cuando hay pocos pozos: reducir tamaño del texto para mejor ajuste */
+.few-wells table, .few-wells th, .few-wells td {
+  font-size: 1.2rem;
+}
+
+/* Estilos para vista móvil generada por mobile view */
+.mobile-kpis {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+.mobile-kpi { background: var(--card-bg); padding: 0.6rem; border-radius: 0.5rem; }
+.mobile-kpi-title { font-size: 0.85rem; color: var(--accent-color); margin-bottom: 0.25rem; }
+.mobile-kpi-value { font-size: 1.1rem; font-weight: 700; color: var(--text-color); }
+.mobile-well-list { display:flex; flex-direction: column; gap: 0.5rem; padding: 0.5rem; }
+.mobile-well-item { padding: 1rem; border-radius: 0.6rem; background: var(--card-bg); border:1px solid var(--table-border-color); text-align:left; font-size:1.15rem; }
+.mobile-well-item:hover { background: var(--table-row-hover-bg); }
+.mobile-back { margin: 0.5rem; padding: 0.5rem; }
+
+/* Evitar que TV ser detectado como móvil: si is-tv presente, no aplicar estilos mobile via media query automatica, la vista móvil se controla por parámetro ?mobile=1 */
