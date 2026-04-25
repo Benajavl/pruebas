@@ -1,6 +1,6 @@
 "use strict";
 
-const DATA_URL = "ddata.json";
+const DATA_URL = "data.json";
 const REFRESH_INTERVAL_MS = 60000;
 let lastDataSignature = "";
 
