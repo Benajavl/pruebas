@@ -3,13 +3,13 @@
     "yacimiento": "La Calera",
     "pad": "PAD B5",
     "estado": "ACTIVO",
-    "lastUpdate": "2026-04-25T18:43:45.1611827Z",
+    "lastUpdate": "2026-04-25T19:30:29.3965133Z",
     "pozos": [
         {
             "pozo": "Lca-3056",
             "tipo": "OMA",
             "estado": "ACTIVO",
-            "comentarios": "Este es el resumen de comentario pozo 1",
+            "comentarios": "Este es el resumen de comentario pozo 1asdadslkniknpasnaspiknmklooamsasf",
             "formaciones": [
                 {
                     "formacion": "GR.NQN",
@@ -95,12 +95,12 @@
             "pozo": "Lca-3057",
             "tipo": "CO",
             "estado": "ACTIVO",
-            "comentarios": "Este es el resumen de comentario pozo 2",
+            "comentarios": "asfgfasfghsdefgf 32564 5asf ghsdf asf51 as5g21a fasfdas ",
             "formaciones": [
                 {
                     "formacion": "GR.NQN",
-                    "md": "5265",
-                    "tvd": "565"
+                    "md": "5265 mts",
+                    "tvd": "565 mts"
                 },
                 {
                     "formacion": "RAYOSO",
@@ -181,7 +181,7 @@
             "pozo": "Lca-3058",
             "tipo": "OIB",
             "estado": "ACTIVO",
-            "comentarios": "Sin comentario",
+            "comentarios": "asdasdasfwq sasadjhiuobgfaikoshji´0fhas´fpojsapifnpaskpofjas pojaspfjopklasjp+foj aspjfpklmaspojfipnsakflmams pa pjsakfnksnf",
             "formaciones": [
                 {
                     "formacion": "GR.NQN",
@@ -267,7 +267,7 @@
             "pozo": "Lca-3059",
             "tipo": "OSA",
             "estado": "ACTIVO",
-            "comentarios": "Sin comentario",
+            "comentarios": "asdasdasdasdikjhaisodnhpaosjdiphasfjlajspfosaiknflmapsnfpkanspfnmpanfspkask",
             "formaciones": [
                 {
                     "formacion": "GR.NQN",
@@ -353,7 +353,7 @@
             "pozo": "Lca-3060",
             "tipo": "OIB",
             "estado": "ACTIVO",
-            "comentarios": "Sin comentario",
+            "comentarios": "asdasdasfwq sasadjhiuobgfaikoshji´0fhas´fpojsapifnpaskpofjas pojaspfjopklasjp+foj aspjfpklmaspojfipnsakflmams pa pjsakfnksnf",
             "formaciones": [
                 {
                     "formacion": "GR.NQN",
@@ -378,22 +378,22 @@
                 {
                     "formacion": "QUINTUCO",
                     "md": "6",
-                    "tvd": "52"
+                    "tvd": "52 mts"
                 },
                 {
                     "formacion": "QTCO.MEDIO",
                     "md": "6",
-                    "tvd": "52"
+                    "tvd": "52 mts"
                 },
                 {
                     "formacion": "VACA MUERTA",
                     "md": "6",
-                    "tvd": "52"
+                    "tvd": "52 mts"
                 },
                 {
                     "formacion": "TD/TVD",
                     "md": "6",
-                    "tvd": "52"
+                    "tvd": "52 mts"
                 }
             ],
             "fases": [
@@ -402,7 +402,7 @@
                     "zapato": "235456",
                     "profundidad": "65625",
                     "fit": "644",
-                    "mw": "54422",
+                    "mw": "54422 gr/lt",
                     "masp": "52411",
                     "comentario": "Sin comentario"
                 },
@@ -439,7 +439,7 @@
             "pozo": "Lca-3061",
             "tipo": "CO",
             "estado": "ACTIVO",
-            "comentarios": "Sin comentario",
+            "comentarios": "asdasdasfwq sasadjhiuobgfaikoshji´0fhas´fpojsapifnpaskpofjas pojaspfjopklasjp+foj aspjfpklmaspojfipnsakflmams pa pjsakfnksnf",
             "formaciones": [
                 {
                     "formacion": "GR.NQN",
