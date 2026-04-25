@@ -2,8 +2,8 @@
     "equipo": "Plus-02",
     "yacimiento": "La Calera",
     "pad": "PAD B5",
-    "estado": "ACTIVO",
-    "lastUpdate": "2026-04-25T19:30:29.3965133Z",
+    "estado": "INACTIVO",
+    "lastUpdate": "2026-04-25T19:58:41.0133700Z",
     "pozos": [
         {
             "pozo": "Lca-3056",
@@ -60,7 +60,7 @@
                     "fit": "4451",
                     "mw": "412",
                     "masp": "554",
-                    "comentario": "Sin comentario"
+                    "comentario": "comentario de la guia"
                 },
                 {
                     "fase": "INTERMEDIA",
@@ -69,7 +69,7 @@
                     "fit": "56",
                     "mw": "44",
                     "masp": "654654",
-                    "comentario": "Sin comentario"
+                    "comentario": "comnetasdsddas "
                 },
                 {
                     "fase": "AISLACION",
@@ -78,7 +78,7 @@
                     "fit": "64",
                     "mw": "654584",
                     "masp": "5464",
-                    "comentario": "Sin comentario"
+                    "comentario": "asdas gfdgdf"
                 },
                 {
                     "fase": "AISLACION_REFUERZO",
@@ -87,7 +87,7 @@
                     "fit": "85478",
                     "mw": "6545",
                     "masp": "54564",
-                    "comentario": "Sin comentario"
+                    "comentario": "dfhr sf"
                 }
             ]
         },
@@ -146,7 +146,7 @@
                     "fit": "21",
                     "mw": "651",
                     "masp": "32",
-                    "comentario": "Sin comentario"
+                    "comentario": "321223"
                 },
                 {
                     "fase": "INTERMEDIA",
@@ -155,7 +155,7 @@
                     "fit": "222",
                     "mw": "65588",
                     "masp": "6565",
-                    "comentario": "Sin comentario"
+                    "comentario": "66"
                 },
                 {
                     "fase": "AISLACION",
@@ -164,7 +164,7 @@
                     "fit": "222",
                     "mw": "154",
                     "masp": "2145",
-                    "comentario": "Sin comentario"
+                    "comentario": "5124"
                 },
                 {
                     "fase": "AISLACION_REFUERZO",
@@ -173,14 +173,14 @@
                     "fit": "1121",
                     "mw": "2514",
                     "masp": "215",
-                    "comentario": "Sin comentario"
+                    "comentario": "215"
                 }
             ]
         },
         {
             "pozo": "Lca-3058",
             "tipo": "OIB",
-            "estado": "INACTIVO",
+            "estado": "ACTIVO",
             "comentarios": "asdasdasfwq sasadjhiuobgfaikoshji´0fhas´fpojsapifnpaskpofjas pojaspfjopklasjp+foj aspjfpklmaspojfipnsakflmams pa pjsakfnksnf",
             "formaciones": [
                 {
@@ -232,7 +232,7 @@
                     "fit": "351328",
                     "mw": "318561",
                     "masp": "1651",
-                    "comentario": "Sin comentario"
+                    "comentario": "comentario de gui "
                 },
                 {
                     "fase": "INTERMEDIA",
@@ -241,7 +241,7 @@
                     "fit": "2626",
                     "mw": "226",
                     "masp": "3125416",
-                    "comentario": "Sin comentario"
+                    "comentario": "comentario de intermedia  pozo 3"
                 },
                 {
                     "fase": "AISLACION",
@@ -250,7 +250,7 @@
                     "fit": "65489",
                     "mw": "5454",
                     "masp": "56484",
-                    "comentario": "Sin comentario"
+                    "comentario": "asdas sd pozo 3"
                 },
                 {
                     "fase": "AISLACION_REFUERZO",
@@ -259,7 +259,7 @@
                     "fit": "6898",
                     "mw": "455216",
                     "masp": "5648",
-                    "comentario": "Sin comentario"
+                    "comentario": "asfa asfs pozo3"
                 }
             ]
         },
@@ -318,7 +318,7 @@
                     "fit": "45",
                     "mw": "654564",
                     "masp": "65544",
-                    "comentario": "Sin comentario"
+                    "comentario": "Comentario pozo 4"
                 },
                 {
                     "fase": "INTERMEDIA",
@@ -327,7 +327,7 @@
                     "fit": "6545",
                     "mw": "58416",
                     "masp": "642",
-                    "comentario": "Sin comentario"
+                    "comentario": "comantario pozo 4"
                 },
                 {
                     "fase": "AISLACION",
@@ -336,7 +336,7 @@
                     "fit": "654",
                     "mw": "654",
                     "masp": "6465",
-                    "comentario": "Sin comentario"
+                    "comentario": "asd sdasdsa f4"
                 },
                 {
                     "fase": "AISLACION_REFUERZO",
@@ -345,7 +345,7 @@
                     "fit": "6546",
                     "mw": "365456",
                     "masp": "65498",
-                    "comentario": "Sin comentario"
+                    "comentario": "asdasdasd 4"
                 }
             ]
         },
@@ -404,7 +404,7 @@
                     "fit": "644",
                     "mw": "54422 gr/lt",
                     "masp": "52411",
-                    "comentario": "Sin comentario"
+                    "comentario": "65454"
                 },
                 {
                     "fase": "INTERMEDIA",
@@ -413,7 +413,7 @@
                     "fit": "145",
                     "mw": "54541",
                     "masp": "245",
-                    "comentario": "Sin comentario"
+                    "comentario": "545"
                 },
                 {
                     "fase": "AISLACION",
@@ -422,7 +422,7 @@
                     "fit": "545",
                     "mw": "5151",
                     "masp": "251451",
-                    "comentario": "Sin comentario"
+                    "comentario": "54"
                 },
                 {
                     "fase": "AISLACION_REFUERZO",
@@ -431,14 +431,14 @@
                     "fit": "545",
                     "mw": "545",
                     "masp": "551",
-                    "comentario": "Sin comentario"
+                    "comentario": "254"
                 }
             ]
         },
         {
             "pozo": "Lca-3061",
             "tipo": "CO",
-            "estado": "INACTIVO",
+            "estado": "ACTIVO",
             "comentarios": "asdasdasfwq sasadjhiuobgfaikoshji´0fhas´fpojsapifnpaskpofjas pojaspfjopklasjp+foj aspjfpklmaspojfipnsakflmams pa pjsakfnksnf",
             "formaciones": [
                 {
