@@ -1,85 +1,575 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Dashboard de Pozos</title>
-  <!-- Estilos generales -->
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tablero Pozos Drilling</title>
+  <style>
+    :root {
+      --bg: #111827;
+      --panel: #1f2937;
+      --panel-soft: #273244;
+      --border: #4b5563;
+      --text: #e5e7eb;
+      --muted: #a5b0c2;
+      --accent: #93c5fd;
+      --active: #22c55e;
+      --danger-bg: #3b1f24;
+      --danger-border: #7f1d1d;
+      --danger-text: #fecdd3;
+      --shadow: 0 12px 30px rgba(0, 0, 0, 0.28);
+      --radius: 14px;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    .app {
+      width: 100%;
+      min-height: 100vh;
+      padding: 14px;
+    }
+
+    .topbar {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 14px;
+      align-items: center;
+      margin-bottom: 14px;
+      padding: 14px 16px;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .title {
+      margin: 0 0 8px;
+      font-size: clamp(1.15rem, 1.8vw, 1.65rem);
+      letter-spacing: -0.02em;
+      color: #f3f4f6;
+    }
+
+    .header-data {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 10px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: var(--panel-soft);
+      color: var(--muted);
+      font-size: 0.86rem;
+      white-space: nowrap;
+    }
+
+    .pill--inactive {
+      background: var(--danger-bg);
+      border-color: var(--danger-border);
+      color: var(--danger-text);
+    }
+
+    .pill strong { color: var(--text); }
+    .pill--inactive strong { color: var(--danger-text); }
+
+    .update-box {
+      text-align: right;
+      color: var(--muted);
+      font-size: 0.82rem;
+      white-space: nowrap;
+    }
+
+    .update-box strong {
+      display: block;
+      color: var(--text);
+      font-size: 0.96rem;
+      margin-top: 2px;
+    }
+
+    .status-dot {
+      width: 9px;
+      height: 9px;
+      border-radius: 999px;
+      background: var(--active);
+      box-shadow: 0 0 0 4px rgba(34, 197, 94, 0.12);
+      flex: 0 0 auto;
+    }
+
+    .status-dot--inactive {
+      background: #ef4444;
+      box-shadow: 0 0 0 4px rgba(239, 68, 68, 0.12);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(430px, 1fr));
+      gap: 12px;
+      align-items: start;
+    }
+
+    .well-card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      min-width: 0;
+    }
+
+    .well-header {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: flex-start;
+      padding: 13px 15px;
+      background: linear-gradient(180deg, #273244, #1f2937);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .well-name {
+      margin: 0;
+      font-size: clamp(1.05rem, 1.45vw, 1.38rem);
+      letter-spacing: -0.02em;
+      color: #f9fafb;
+    }
+
+    .well-type {
+      color: var(--accent);
+      font-weight: 800;
+      font-size: 0.9rem;
+      margin-top: 2px;
+    }
+
+    .comment {
+      margin: 12px 14px 0;
+      padding: 10px 12px;
+      background: #151f2d;
+      border: 1px solid #3f4b5d;
+      border-left: 4px solid #93c5fd;
+      border-radius: 11px;
+      color: #cbd5e1;
+      line-height: 1.42;
+      white-space: pre-wrap;
+      font-size: 0.88rem;
+    }
+
+    .sections {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+      padding: 14px;
+    }
+
+    .section { min-width: 0; }
+
+    .section-title {
+      margin: 0 0 9px;
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+      align-items: center;
+      color: #e5e7eb;
+      font-size: 0.82rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .count {
+      color: var(--muted);
+      font-size: 0.76rem;
+      font-weight: 600;
+      text-transform: none;
+      letter-spacing: 0;
+    }
+
+    .phase-cards {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px;
+    }
+
+    .phase-card {
+      border: 1px solid #4b5563;
+      border-radius: 12px;
+      background: #172231;
+      padding: 10px;
+      min-width: 0;
+    }
+
+    .phase-card-title {
+      margin: 0 0 8px;
+      color: #dbeafe;
+      font-weight: 800;
+      font-size: 0.86rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      overflow-wrap: anywhere;
+    }
+
+    .phase-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 6px 10px;
+    }
+
+    .metric { min-width: 0; }
+
+    .metric-label {
+      display: block;
+      color: #94a3b8;
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 2px;
+    }
+
+    .metric-value {
+      color: #f8fafc;
+      font-weight: 700;
+      font-size: 0.9rem;
+      overflow-wrap: anywhere;
+    }
+
+    .phase-note {
+      margin-top: 8px;
+      padding-top: 8px;
+      border-top: 1px solid #3f4b5d;
+      color: #aab7ca;
+      font-size: 0.78rem;
+      line-height: 1.35;
+    }
+
+    .table-wrap {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: auto;
+      background: #172231;
+    }
+
+    table {
+      width: 100%;
+      min-width: 320px;
+      border-collapse: collapse;
+      font-size: 0.84rem;
+    }
+
+    th, td {
+      padding: 8px 9px;
+      border-bottom: 1px solid #3f4b5d;
+      text-align: left;
+      vertical-align: top;
+      color: #dbe3ef;
+    }
+
+    th {
+      background: #222e40;
+      color: #aebbd0;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      position: sticky;
+      top: 0;
+      z-index: 1;
+    }
+
+    tr:last-child td { border-bottom: 0; }
+
+    td.numeric,
+    th.numeric {
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .empty {
+      padding: 16px;
+      border: 1px dashed var(--border);
+      border-radius: 12px;
+      color: var(--muted);
+      background: #172231;
+      text-align: center;
+    }
+
+    .hidden-state {
+      padding: 24px;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      color: var(--muted);
+      text-align: center;
+      box-shadow: var(--shadow);
+    }
+
+    .error {
+      padding: 16px;
+      background: #2b1720;
+      color: #fecdd3;
+      border: 1px solid #7f1d1d;
+      border-radius: var(--radius);
+    }
+
+    @media (min-width: 1800px) {
+      .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    }
+
+    @media (min-width: 2500px) {
+      .grid { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+      .phase-cards { grid-template-columns: 1fr; }
+      table { font-size: 0.78rem; }
+    }
+
+    @media (max-width: 1100px) {
+      .grid { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 760px) {
+      .app { padding: 10px; }
+      .topbar { grid-template-columns: 1fr; }
+      .update-box { text-align: left; }
+      .phase-cards { grid-template-columns: 1fr; }
+      .well-header { flex-direction: column; }
+    }
+  </style>
 </head>
 <body>
-  <!-- Encabezado principal con título, controles y tarjetas KPI -->
-  <header id="header">
-    <!-- Fila superior con título y controles -->
-    <div id="header-top" class="header-top">
-      <div class="header-left">
-        <h1>Dashboard de Pozos</h1>
+  <main class="app">
+    <header class="topbar">
+      <div>
+        <h1 class="title">Tablero de Pozos</h1>
+        <div class="header-data" id="headerData">Cargando datos...</div>
       </div>
-      <!-- Control de tema oscuro/claro y botón de configuración -->
-      <div id="controlsHeader">
-        <label class="theme-switch">
-          <input type="checkbox" id="themeToggle" aria-label="Activar modo oscuro">
-          <span class="slider"></span>
-          <span class="switch-label">Modo oscuro</span>
-        </label>
-        <button id="settingsButton" class="settings-button" aria-label="Configuración">⚙︎</button>
+      <div class="update-box">
+        Última actualización
+        <strong id="lastUpdate">-</strong>
       </div>
-    </div>
-    <!-- Contenedor para las tarjetas KPI generado dinámicamente (fila separada) -->
-    <div id="kpi-row">
-      <div id="kpi-container"></div>
-    </div>
-  </header>
+    </header>
 
-  <!-- Contenedor principal del contenido -->
-  <main id="main">
-    <!-- Contenedor de mensajes de error -->
-    <div id="error" class="error" hidden></div>
-    <!-- Controles heredados eliminados; la selección se gestiona desde el modal -->
-    <input type="checkbox" id="autoScrollToggle" style="display:none;" aria-hidden="true">
-    <!-- Contenedor de las tablas generadas a partir de los pozos -->
-    <div id="tables-wrapper"></div>
+    <section id="content"></section>
   </main>
 
-  <!-- Modal de configuración para seleccionar pozos y auto-scroll -->
-  <div id="settingsModal" class="modal" aria-hidden="true">
-    <div class="modal-content">
-      <button id="closeSettings" class="close-modal" aria-label="Cerrar">×</button>
-      <h2>Configuración</h2>
-      <!-- Sección de pozos visibles -->
-      <div class="settings-section">
-        <h3>Pozos visibles</h3>
-        <p class="settings-tip">Siempre queda al menos un pozo visible.</p>
-        <div id="modalWellControls"></div>
-      </div>
-      <!-- Sección de auto desplazamiento -->
-      <div class="settings-section">
-        <h3>Auto desplazamiento</h3>
-        <label class="auto-scroll-label">
-          <input type="checkbox" id="modalAutoScrollToggle">
-          Auto desplazamiento
-        </label>
-      </div>
-      <!-- Sección para personalizar tarjetas de stock -->
-      <div class="settings-section">
-        <h3>Tarjetas de stock</h3>
-        <p class="settings-tip">Elige los ítems de stock a mostrar en el pie.</p>
-        <div id="modalStockControls"></div>
-      </div>
-      <!-- Acciones -->
-      <div class="settings-actions">
-        <button id="resetSettings" class="settings-reset">Restablecer</button>
-        <button id="saveSettings" class="settings-save">Guardar</button>
-      </div>
-    </div>
-  </div>
+  <script>
+    "use strict";
 
-  <!-- Pie de página que se mostrará solo si hay información específica -->
-  <footer id="footer" hidden>
-    <div id="footerContent"></div>
-  </footer>
+    const DATA_URL = "data.json";
+    const REFRESH_INTERVAL_MS = 60000;
+    const RUN_SELF_TESTS = true;
 
-  <!-- Lógica del lado del cliente para manejar datos y eventos -->
-  <script src="script.js"></script>
+    let lastDataSignature = "";
+
+    const els = {
+      headerData: document.getElementById("headerData"),
+      lastUpdate: document.getElementById("lastUpdate"),
+      content: document.getElementById("content")
+    };
+
+    document.addEventListener("DOMContentLoaded", () => {
+      if (RUN_SELF_TESTS) runSelfTests();
+      loadData({ forceRender: true });
+      window.setInterval(() => loadData({ forceRender: false }), REFRESH_INTERVAL_MS);
+    });
+
+    async function loadData({ forceRender = false } = {}) {
+      try {
+        const response = await fetch(`${DATA_URL}?t=${Date.now()}`, { cache: "no-store" });
+        if (!response.ok) throw new Error(`No se pudo leer ${DATA_URL}. HTTP ${response.status}`);
+
+        const data = await response.json();
+        const signature = JSON.stringify(data);
+
+        if (!forceRender && signature === lastDataSignature) return;
+
+        lastDataSignature = signature;
+        renderDashboard(data);
+      } catch (error) {
+        console.error(error);
+        els.content.innerHTML = `<div class="error">${safe(error.message || "Error al cargar datos")}</div>`;
+      }
+    }
+
+    function renderDashboard(data) {
+      renderHeader(data);
+
+      if (normalize(data.estado) !== "ACTIVO") {
+        els.content.innerHTML = "";
+        return;
+      }
+
+      const pozos = Array.isArray(data.pozos) ? data.pozos : [];
+      const pozosActivos = pozos.filter(pozo => normalize(pozo.estado) === "ACTIVO");
+
+      if (!pozosActivos.length) {
+        els.content.innerHTML = `<div class="hidden-state">No hay pozos activos para mostrar.</div>`;
+        return;
+      }
+
+      els.content.innerHTML = `
+        <div class="grid">
+          ${pozosActivos.map(renderWellCard).join("")}
+        </div>
+      `;
+    }
+
+    function renderHeader(data) {
+      const isActive = normalize(data.estado) === "ACTIVO";
+      const dotClass = isActive ? "status-dot" : "status-dot status-dot--inactive";
+      const padClass = isActive ? "pill" : "pill pill--inactive";
+
+      els.headerData.innerHTML = `
+        <span class="pill"><span class="${dotClass}"></span>Equipo: <strong>${safe(data.equipo)}</strong></span>
+        <span class="pill">Yacimiento: <strong>${safe(data.yacimiento)}</strong></span>
+        <span class="${padClass}">PAD: <strong>${safe(data.pad)}</strong></span>
+      `;
+      els.lastUpdate.textContent = formatDateTime(data.lastUpdate);
+    }
+
+    function renderWellCard(pozo) {
+      const fases = Array.isArray(pozo.fases) ? pozo.fases : [];
+      const formaciones = Array.isArray(pozo.formaciones) ? pozo.formaciones : [];
+
+      return `
+        <article class="well-card">
+          <div class="well-header">
+            <div>
+              <h2 class="well-name">${safe(pozo.pozo)}</h2>
+              <div class="well-type">${safe(pozo.tipo)}</div>
+            </div>
+          </div>
+
+          <div class="comment">${safe(pozo.comentarios || "Sin comentario")}</div>
+
+          <div class="sections">
+            <section class="section">
+              <h3 class="section-title">Fases <span class="count">${fases.length}</span></h3>
+              ${renderFasesCards(fases)}
+            </section>
+
+            <section class="section">
+              <h3 class="section-title">Formaciones <span class="count">${formaciones.length}</span></h3>
+              ${renderFormacionesTable(formaciones)}
+            </section>
+          </div>
+        </article>
+      `;
+    }
+
+    function renderFasesCards(fases) {
+      if (!fases.length) return `<div class="empty">Sin fases cargadas</div>`;
+
+      return `
+        <div class="phase-cards">
+          ${fases.map(fase => `
+            <article class="phase-card">
+              <h4 class="phase-card-title">${safe(fase.fase)}</h4>
+              <div class="phase-grid">
+                <div class="metric">
+                  <span class="metric-label">Zapato</span>
+                  <span class="metric-value">${safe(fase.zapato)}</span>
+                </div>
+                <div class="metric">
+                  <span class="metric-label">Prof.</span>
+                  <span class="metric-value">${safe(fase.profundidad)}</span>
+                </div>
+                <div class="metric">
+                  <span class="metric-label">FIT</span>
+                  <span class="metric-value">${safe(fase.fit)}</span>
+                </div>
+                <div class="metric">
+                  <span class="metric-label">MW</span>
+                  <span class="metric-value">${safe(fase.mw)}</span>
+                </div>
+                <div class="metric">
+                  <span class="metric-label">MASP</span>
+                  <span class="metric-value">${safe(fase.masp)}</span>
+                </div>
+              </div>
+              <div class="phase-note">${safe(fase.comentario || "Sin comentario")}</div>
+            </article>
+          `).join("")}
+        </div>
+      `;
+    }
+
+    function renderFormacionesTable(formaciones) {
+      if (!formaciones.length) return `<div class="empty">Sin formaciones cargadas</div>`;
+
+      return `
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Formación</th>
+                <th class="numeric">MD</th>
+                <th class="numeric">TVD</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${formaciones.map(formacion => `
+                <tr>
+                  <td><strong>${safe(formacion.formacion)}</strong></td>
+                  <td class="numeric">${safe(formacion.md)}</td>
+                  <td class="numeric">${safe(formacion.tvd)}</td>
+                </tr>
+              `).join("")}
+            </tbody>
+          </table>
+        </div>
+      `;
+    }
+
+    function normalize(value) {
+      return String(value || "").trim().toUpperCase();
+    }
+
+    function safe(value) {
+      return String(value ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function formatDateTime(value) {
+      if (!value) return "-";
+      const date = new Date(value);
+      if (Number.isNaN(date.getTime())) return safe(value);
+
+      return new Intl.DateTimeFormat("es-AR", {
+        day: "2-digit",
+        month: "2-digit",
+        year: "numeric",
+        hour: "2-digit",
+        minute: "2-digit"
+      }).format(date);
+    }
+
+    function runSelfTests() {
+      console.assert(normalize(" activo ") === "ACTIVO", "normalize debe limpiar espacios y convertir a mayúsculas");
+      console.assert(safe("<b>x</b>") === "&lt;b&gt;x&lt;/b&gt;", "safe debe escapar HTML");
+      console.assert(renderFasesCards([]).includes("Sin fases cargadas"), "renderFasesCards debe manejar array vacío");
+      console.assert(renderFormacionesTable([]).includes("Sin formaciones cargadas"), "renderFormacionesTable debe manejar array vacío");
+
+      const activeHeader = { equipo: "Plus-02", yacimiento: "La Calera", pad: "PAD B5", estado: "ACTIVO", lastUpdate: "2026-04-25T17:16:33Z" };
+      const inactiveHeader = { ...activeHeader, estado: "INACTIVO" };
+
+      renderHeader(activeHeader);
+      console.assert(!els.headerData.innerHTML.includes("pill--inactive"), "PAD activo no debe mostrarse rojo");
+
+      renderHeader(inactiveHeader);
+      console.assert(els.headerData.innerHTML.includes("pill--inactive"), "PAD inactivo debe mostrarse rojo");
+    }
+  </script>
 </body>
 </html>
