@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-26T17:24:05.5794784Z",
+  "lastUpdate": "2026-04-26T17:25:04.9131324Z",
   "pad": "PAD Prueba",
   "pozos": [
     {
@@ -13,7 +13,7 @@
           "fase": "GUIA",
           "fit": "125 mts",
           "masp": "554",
-          "mw": "412",
+          "mw": "1234 gr/lt",
           "profundidad": "200 mts",
           "zapato": "1500 mst"
         },
