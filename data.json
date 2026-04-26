@@ -1,8 +1,8 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-26T17:22:27.3737912Z",
-  "pad": "PAD B5",
+  "lastUpdate": "2026-04-26T17:23:16.1818952Z",
+  "pad": "PAD Prueba",
   "pozos": [
     {
       "comentarios": "Este es el resumen de comentario pozo 1asdadslkniknpasnaspiknmklooamsasf",
@@ -88,7 +88,7 @@
         }
       ],
       "pozo": "Lca-01",
-      "tipo": "OMA"
+      "tipo": "CO"
     },
     {
       "comentarios": "asfgfasfghsdefgf 32564 5asf ghsdf asf51 as5g21a fasfdas ",
@@ -129,6 +129,42 @@
           "mw": "2514",
           "profundidad": "222",
           "zapato": "28541"
+        },
+        {
+          "comentario": "comentario de gui ",
+          "fase": "GUIA",
+          "fit": "351328",
+          "masp": "1651",
+          "mw": "318561",
+          "profundidad": "315",
+          "zapato": "1112"
+        },
+        {
+          "comentario": "comentario de intermedia  pozo 3",
+          "fase": "INTERMEDIA",
+          "fit": "2626",
+          "masp": "3125416",
+          "mw": "226",
+          "profundidad": "65",
+          "zapato": "235"
+        },
+        {
+          "comentario": "asdas sd pozo 3",
+          "fase": "AISLACION",
+          "fit": "65489",
+          "masp": "56484",
+          "mw": "5454",
+          "profundidad": "4898",
+          "zapato": "4984"
+        },
+        {
+          "comentario": "asfa asfs pozo3",
+          "fase": "AISLACION_REFUERZO",
+          "fit": "6898",
+          "masp": "5648",
+          "mw": "455216",
+          "profundidad": "8484",
+          "zapato": "84845"
         }
       ],
       "formaciones": [
@@ -171,53 +207,7 @@
           "formacion": "TD/TVD",
           "md": "5841",
           "tvd": "5451"
-        }
-      ],
-      "pozo": "Lca-3057",
-      "tipo": "CO"
-    },
-    {
-      "comentarios": "asdasdasfwq sasadjhiuobgfaikoshji´0fhas´fpojsapifnpaskpofjas pojaspfjopklasjp+foj aspjfpklmaspojfipnsakflmams pa pjsakfnksnf",
-      "estado": "ACTIVO",
-      "fases": [
-        {
-          "comentario": "comentario de gui ",
-          "fase": "GUIA",
-          "fit": "351328",
-          "masp": "1651",
-          "mw": "318561",
-          "profundidad": "315",
-          "zapato": "1112"
         },
-        {
-          "comentario": "comentario de intermedia  pozo 3",
-          "fase": "INTERMEDIA",
-          "fit": "2626",
-          "masp": "3125416",
-          "mw": "226",
-          "profundidad": "65",
-          "zapato": "235"
-        },
-        {
-          "comentario": "asdas sd pozo 3",
-          "fase": "AISLACION",
-          "fit": "65489",
-          "masp": "56484",
-          "mw": "5454",
-          "profundidad": "4898",
-          "zapato": "4984"
-        },
-        {
-          "comentario": "asfa asfs pozo3",
-          "fase": "AISLACION_REFUERZO",
-          "fit": "6898",
-          "masp": "5648",
-          "mw": "455216",
-          "profundidad": "8484",
-          "zapato": "84845"
-        }
-      ],
-      "formaciones": [
         {
           "formacion": "GR.NQN",
           "md": "144",
@@ -259,7 +249,169 @@
           "tvd": "6592"
         }
       ],
-      "pozo": "Lca-3058",
+      "pozo": "Lca-02",
+      "tipo": "CO"
+    },
+    {
+      "comentarios": "asfgfasfghsdefgf 32564 5asf ghsdf asf51 as5g21a fasfdas ",
+      "estado": "ACTIVO",
+      "fases": [
+        {
+          "comentario": "321223",
+          "fase": "GUIA",
+          "fit": "21",
+          "masp": "32",
+          "mw": "651",
+          "profundidad": "2165",
+          "zapato": "1651"
+        },
+        {
+          "comentario": "66",
+          "fase": "INTERMEDIA",
+          "fit": "222",
+          "masp": "6565",
+          "mw": "65588",
+          "profundidad": "5545",
+          "zapato": "6556"
+        },
+        {
+          "comentario": "5124",
+          "fase": "AISLACION",
+          "fit": "222",
+          "masp": "2145",
+          "mw": "154",
+          "profundidad": "584",
+          "zapato": "514541"
+        },
+        {
+          "comentario": "215",
+          "fase": "AISLACION_REFUERZO",
+          "fit": "1121",
+          "masp": "215",
+          "mw": "2514",
+          "profundidad": "222",
+          "zapato": "28541"
+        },
+        {
+          "comentario": "comentario de gui ",
+          "fase": "GUIA",
+          "fit": "351328",
+          "masp": "1651",
+          "mw": "318561",
+          "profundidad": "315",
+          "zapato": "1112"
+        },
+        {
+          "comentario": "comentario de intermedia  pozo 3",
+          "fase": "INTERMEDIA",
+          "fit": "2626",
+          "masp": "3125416",
+          "mw": "226",
+          "profundidad": "65",
+          "zapato": "235"
+        },
+        {
+          "comentario": "asdas sd pozo 3",
+          "fase": "AISLACION",
+          "fit": "65489",
+          "masp": "56484",
+          "mw": "5454",
+          "profundidad": "4898",
+          "zapato": "4984"
+        },
+        {
+          "comentario": "asfa asfs pozo3",
+          "fase": "AISLACION_REFUERZO",
+          "fit": "6898",
+          "masp": "5648",
+          "mw": "455216",
+          "profundidad": "8484",
+          "zapato": "84845"
+        }
+      ],
+      "formaciones": [
+        {
+          "formacion": "GR.NQN",
+          "md": "5265 mts",
+          "tvd": "565 mts"
+        },
+        {
+          "formacion": "RAYOSO",
+          "md": "5454",
+          "tvd": "611"
+        },
+        {
+          "formacion": "CENTENEARIO",
+          "md": "25541",
+          "tvd": "451211"
+        },
+        {
+          "formacion": "MULICHINGO",
+          "md": "515154",
+          "tvd": "52484"
+        },
+        {
+          "formacion": "QUINTUCO",
+          "md": "54512",
+          "tvd": "21851"
+        },
+        {
+          "formacion": "QTCO.MEDIO",
+          "md": "84851",
+          "tvd": "21458158"
+        },
+        {
+          "formacion": "VACA MUERTA",
+          "md": "5181",
+          "tvd": "5115"
+        },
+        {
+          "formacion": "TD/TVD",
+          "md": "5841",
+          "tvd": "5451"
+        },
+        {
+          "formacion": "GR.NQN",
+          "md": "144",
+          "tvd": "254421"
+        },
+        {
+          "formacion": "RAYOSO",
+          "md": "141",
+          "tvd": "2152"
+        },
+        {
+          "formacion": "CENTENEARIO",
+          "md": "14",
+          "tvd": "2151"
+        },
+        {
+          "formacion": "MULICHINGO",
+          "md": "454",
+          "tvd": "2151"
+        },
+        {
+          "formacion": "QUINTUCO",
+          "md": "55",
+          "tvd": "28541"
+        },
+        {
+          "formacion": "QTCO.MEDIO",
+          "md": "56558",
+          "tvd": "541"
+        },
+        {
+          "formacion": "VACA MUERTA",
+          "md": "545",
+          "tvd": "2545"
+        },
+        {
+          "formacion": "TD/TVD",
+          "md": "54",
+          "tvd": "6592"
+        }
+      ],
+      "pozo": "Lca-02",
       "tipo": "OIB"
     },
     {
@@ -345,7 +497,7 @@
           "tvd": "25"
         }
       ],
-      "pozo": "Lca-3059",
+      "pozo": "Lca-03",
       "tipo": "OSA"
     },
     {
@@ -431,7 +583,7 @@
           "tvd": "52 mts"
         }
       ],
-      "pozo": "Lca-3060",
+      "pozo": "Lca-04",
       "tipo": "OIB"
     },
     {
@@ -517,7 +669,7 @@
           "tvd": "0"
         }
       ],
-      "pozo": "Lca-3061",
+      "pozo": "Lca-05",
       "tipo": "CO"
     }
   ],
