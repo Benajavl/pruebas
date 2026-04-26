@@ -1,12 +1,12 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-26T17:38:04.7767315Z",
+  "lastUpdate": "2026-04-26T17:44:54.1854362Z",
   "pad": "PAD Prueba",
   "pozos": [
     {
       "comentarios": "Este es el resumen del dia de prueba",
-      "estado": "INACTIVO",
+      "estado": "ACTIVO",
       "fases": [
         {
           "comentario": "resumen de la estapa guia",
@@ -92,7 +92,7 @@
     },
     {
       "comentarios": "este pozo esta activo ",
-      "estado": "ACTIVO",
+      "estado": "INACTIVO",
       "fases": [
         {
           "comentario": "321223",
@@ -178,7 +178,7 @@
     },
     {
       "comentarios": "asdasdasfwq sasadjhiuobgfaikoshji´0fhas´fpojsapifnpaskpofjas pojaspfjopklasjp+foj aspjfpklmaspojfipnsakflmams pa pjsakfnksnf",
-      "estado": "ACTIVO",
+      "estado": "INACTIVO",
       "fases": [
         {
           "comentario": "comentario de gui ",
@@ -350,7 +350,7 @@
     },
     {
       "comentarios": "asdasdasfwq sasadjhiuobgfaikoshji´0fhas´fpojsapifnpaskpofjas pojaspfjopklasjp+foj aspjfpklmaspojfipnsakflmams pa pjsakfnksnf",
-      "estado": "ACTIVO",
+      "estado": "INACTIVO",
       "fases": [
         {
           "comentario": "65454",
@@ -436,7 +436,7 @@
     },
     {
       "comentarios": "asdasdasfwq sasadjhiuobgfaikoshji´0fhas´fpojsapifnpaskpofjas pojaspfjopklasjp+foj aspjfpklmaspojfipnsakflmams pa pjsakfnksnf",
-      "estado": "ACTIVO",
+      "estado": "INACTIVO",
       "fases": [
         {
           "comentario": "Sin comentario",
