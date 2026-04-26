@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-26T17:23:16.1818952Z",
+  "lastUpdate": "2026-04-26T17:24:05.5794784Z",
   "pad": "PAD Prueba",
   "pozos": [
     {
@@ -11,11 +11,11 @@
         {
           "comentario": "comentario de la guia",
           "fase": "GUIA",
-          "fit": "4451",
+          "fit": "125 mts",
           "masp": "554",
           "mw": "412",
-          "profundidad": "2152",
-          "zapato": "1005"
+          "profundidad": "200 mts",
+          "zapato": "1500 mst"
         },
         {
           "comentario": "comnetasdsddas ",
