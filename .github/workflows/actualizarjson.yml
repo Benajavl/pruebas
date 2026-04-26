@@ -2,7 +2,7 @@ name: Update data.json
 
 on:
   repository_dispatch:
-    types: [update-status]
+    types: [actualizarjson]
 
 permissions:
   contents: write   # ⬅️ Necesario para poder hacer commit/push
