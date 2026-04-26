@@ -1,12 +1,12 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-26T17:25:52.4365204Z",
+  "lastUpdate": "2026-04-26T17:26:46.9907698Z",
   "pad": "PAD Prueba",
   "pozos": [
     {
-      "comentarios": "Este es el resumen de comentario pozo 1asdadslkniknpasnaspiknmklooamsasf",
-      "estado": "INACTIVO",
+      "comentarios": "Este es el resumen del dia de prueba",
+      "estado": "ACTIVO",
       "fases": [
         {
           "comentario": "resumen de la estapa guia",
@@ -53,8 +53,8 @@
         },
         {
           "formacion": "RAYOSO",
-          "md": "5464",
-          "tvd": "54654"
+          "md": "tampoco",
+          "tvd": "no se sabe"
         },
         {
           "formacion": "CENTENEARIO",
