@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-26T17:25:04.9131324Z",
+  "lastUpdate": "2026-04-26T17:25:52.4365204Z",
   "pad": "PAD Prueba",
   "pozos": [
     {
@@ -9,16 +9,16 @@
       "estado": "INACTIVO",
       "fases": [
         {
-          "comentario": "comentario de la guia",
+          "comentario": "resumen de la estapa guia",
           "fase": "GUIA",
           "fit": "125 mts",
-          "masp": "554",
+          "masp": "456 gr/lt",
           "mw": "1234 gr/lt",
           "profundidad": "200 mts",
           "zapato": "1500 mst"
         },
         {
-          "comentario": "comnetasdsddas ",
+          "comentario": "resumen de la etapa intermedia",
           "fase": "INTERMEDIA",
           "fit": "56",
           "masp": "654654",
@@ -27,7 +27,7 @@
           "zapato": "545454"
         },
         {
-          "comentario": "asdas gfdgdf",
+          "comentario": "otro resumen",
           "fase": "AISLACION",
           "fit": "64",
           "masp": "5464",
@@ -48,8 +48,8 @@
       "formaciones": [
         {
           "formacion": "GR.NQN",
-          "md": "123",
-          "tvd": "3156"
+          "md": "123 mts",
+          "tvd": "8774 mts"
         },
         {
           "formacion": "RAYOSO",
