@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-26T17:17:59.8204948Z",
+  "lastUpdate": "2026-04-26T17:22:27.3737912Z",
   "pad": "PAD B5",
   "pozos": [
     {
@@ -87,7 +87,7 @@
           "tvd": "6548"
         }
       ],
-      "pozo": "Lca-3056",
+      "pozo": "Lca-01",
       "tipo": "OMA"
     },
     {
