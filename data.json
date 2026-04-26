@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-26T17:26:46.9907698Z",
+  "lastUpdate": "2026-04-26T17:27:34.2069465Z",
   "pad": "PAD Prueba",
   "pozos": [
     {
@@ -91,8 +91,8 @@
       "tipo": "CO"
     },
     {
-      "comentarios": "asfgfasfghsdefgf 32564 5asf ghsdf asf51 as5g21a fasfdas ",
-      "estado": "INACTIVO",
+      "comentarios": "este pozo esta activo ",
+      "estado": "ACTIVO",
       "fases": [
         {
           "comentario": "321223",
@@ -253,7 +253,7 @@
       "tipo": "CO"
     },
     {
-      "comentarios": "asfgfasfghsdefgf 32564 5asf ghsdf asf51 as5g21a fasfdas ",
+      "comentarios": "este pozo esta activo ",
       "estado": "ACTIVO",
       "fases": [
         {
@@ -416,7 +416,7 @@
     },
     {
       "comentarios": "asdasdasdasdikjhaisodnhpaosjdiphasfjlajspfosaiknflmapsnfpkanspfnmpanfspkask",
-      "estado": "ACTIVO",
+      "estado": "INACTIVO",
       "fases": [
         {
           "comentario": "Comentario pozo 4",
