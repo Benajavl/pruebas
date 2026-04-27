@@ -1,33 +1,33 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-27T17:21:43.8702529Z",
+  "lastUpdate": "2026-04-27T17:33:18.0070488Z",
   "pad": "PAD B5",
   "pozos": [
     {
       "comentarios": "Sin comentario",
-      "estado": "INACTIVO",
+      "estado": "ACTIVO",
       "fases": [
         {
-          "comentario": "Sin comentario",
+          "comentario": "honoi",
           "fase": "GUIA",
-          "fit": "0",
-          "masp": "0",
-          "mw": "0",
-          "profundidad": "0",
-          "zapato": "0"
+          "fit": "234",
+          "masp": "234",
+          "mw": "23434",
+          "profundidad": "3242",
+          "zapato": "986"
         },
         {
-          "comentario": "Sin comentario",
+          "comentario": "lkjon",
           "fase": "INTERMEDIA",
-          "fit": "0",
-          "masp": "0",
-          "mw": "0",
-          "profundidad": "0",
-          "zapato": "0"
+          "fit": "234",
+          "masp": "23",
+          "mw": "234",
+          "profundidad": "23423",
+          "zapato": "23423"
         },
         {
-          "comentario": "Sin comentario",
+          "comentario": "sldkfnskdf",
           "fase": "AISLACION",
           "fit": "0",
           "masp": "0",
@@ -36,7 +36,7 @@
           "zapato": "0"
         },
         {
-          "comentario": "Sin comentario",
+          "comentario": "msldmf",
           "fase": "AISLACION_REFUERZO",
           "fit": "0",
           "masp": "0",
@@ -92,7 +92,7 @@
     },
     {
       "comentarios": "Sin comentario",
-      "estado": "INACTIVO",
+      "estado": "ACTIVO",
       "fases": [
         {
           "comentario": "Sin comentario",
@@ -264,7 +264,7 @@
     },
     {
       "comentarios": "Sin comentario",
-      "estado": "INACTIVO",
+      "estado": "ACTIVO",
       "fases": [
         {
           "comentario": "Sin comentario",
