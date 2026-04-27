@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-27T21:05:49.9770475Z",
+  "lastUpdate": "2026-04-27T21:06:33.5301746Z",
   "pad": "PAD B5",
   "pozos": [
     {
@@ -27,7 +27,7 @@
           "zapato": "2124,44 m"
         },
         {
-          "comentario": "Pase VM: 2708 mMD PC: 2879 mMD/2844 mTVD. BUPT: Max ECD 2200 g/l",
+          "comentario": "Pase VM: 2708 mMD PC: 2879 mMD/2844 mTVD. BUPT: Max ECD en PVM 2200 g/l",
           "fase": "AISLACION",
           "fit": "2300",
           "masp": "1180 psi",
