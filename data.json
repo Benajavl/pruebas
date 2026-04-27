@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-27T21:42:11.8620043Z",
+  "lastUpdate": "2026-04-27T21:42:44.0116585Z",
   "pad": "PAD B5",
   "pozos": [
     {
@@ -374,8 +374,8 @@
           "comentario": "Finalizada, BPV y sección C colocada",
           "fase": "AISLACION",
           "fit": "2300 g/l",
-          "masp": "0",
-          "mw": "0",
+          "masp": "1200 psi",
+          "mw": "1900 g/l",
           "profundidad": "5802,76 m",
           "zapato": "5787,64 m"
         },
