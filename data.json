@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "INACTIVO",
-  "lastUpdate": "2026-04-27T11:41:40.8487497Z",
+  "lastUpdate": "2026-04-27T11:43:18.6767163Z",
   "pad": "PAD Prueba",
   "pozos": [
     {
@@ -92,7 +92,7 @@
     },
     {
       "comentarios": "este pozo esta activo ",
-      "estado": "INACTIVO",
+      "estado": "ACTIVO",
       "fases": [
         {
           "comentario": "321223",
@@ -178,7 +178,7 @@
     },
     {
       "comentarios": "asdasdasfwq sasadjhiuobgfaikoshji´0fhas´fpojsapifnpaskpofjas pojaspfjopklasjp+foj aspjfpklmaspojfipnsakflmams pa pjsakfnksnf",
-      "estado": "INACTIVO",
+      "estado": "ACTIVO",
       "fases": [
         {
           "comentario": "comentario de gui ",
@@ -264,7 +264,7 @@
     },
     {
       "comentarios": "asdasdasdasdikjhaisodnhpaosjdiphasfjlajspfosaiknflmapsnfpkanspfnmpanfspkask",
-      "estado": "INACTIVO",
+      "estado": "ACTIVO",
       "fases": [
         {
           "comentario": "Comentario pozo 4",
@@ -350,7 +350,7 @@
     },
     {
       "comentarios": "asdasdasfwq sasadjhiuobgfaikoshji´0fhas´fpojsapifnpaskpofjas pojaspfjopklasjp+foj aspjfpklmaspojfipnsakflmams pa pjsakfnksnf",
-      "estado": "INACTIVO",
+      "estado": "ACTIVO",
       "fases": [
         {
           "comentario": "65454",
@@ -436,7 +436,7 @@
     },
     {
       "comentarios": "asdasdasfwq sasadjhiuobgfaikoshji´0fhas´fpojsapifnpaskpofjas pojaspfjopklasjp+foj aspjfpklmaspojfipnsakflmams pa pjsakfnksnf",
-      "estado": "INACTIVO",
+      "estado": "ACTIVO",
       "fases": [
         {
           "comentario": "Sin comentario",
