@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-27T20:47:17.3741046Z",
+  "lastUpdate": "2026-04-27T20:48:31.3539899Z",
   "pad": "PAD B5",
   "pozos": [
     {
@@ -285,7 +285,7 @@
           "zapato": "0"
         },
         {
-          "comentario": "Sin comentario",
+          "comentario": "Finalizada, BPV y sección C colocada",
           "fase": "AISLACION",
           "fit": "0",
           "masp": "0",
