@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-27T21:13:11.9032449Z",
+  "lastUpdate": "2026-04-27T21:14:14.6993147Z",
   "pad": "PAD B5",
   "pozos": [
     {
@@ -27,7 +27,7 @@
           "zapato": "2124,44 m"
         },
         {
-          "comentario": " PC: 2879 mMD/2844 mTVD. BUPT:1953 g/l; Max ECD en PVM 2200 g/l",
+          "comentario": " PC: 2879 mMD/2844 mTVD. BUPT:1953 g/l; Max ECD en PVM 2200 g/l. KM 2010 g/l. Pérdidas por filtración menores a 400 l/h durante toda la perforación.",
           "fase": "AISLACION",
           "fit": "2300 g/l",
           "masp": "1192 psi",
