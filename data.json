@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-27T11:43:51.1382862Z",
+  "lastUpdate": "2026-04-27T11:45:53.4136796Z",
   "pad": "PAD Prueba",
   "pozos": [
     {
@@ -177,265 +177,265 @@
       "tipo": "CO"
     },
     {
-      "comentarios": "asdasdasfwq sasadjhiuobgfaikoshji´0fhas´fpojsapifnpaskpofjas pojaspfjopklasjp+foj aspjfpklmaspojfipnsakflmams pa pjsakfnksnf",
+      "comentarios": "Sin comentario",
       "estado": "ACTIVO",
       "fases": [
         {
-          "comentario": "comentario de gui ",
+          "comentario": "Sin comentario",
           "fase": "GUIA",
-          "fit": "351328",
-          "masp": "1651",
-          "mw": "318561",
-          "profundidad": "315",
-          "zapato": "1112"
+          "fit": "0",
+          "masp": "0",
+          "mw": "0",
+          "profundidad": "0",
+          "zapato": "0"
         },
         {
-          "comentario": "comentario de intermedia  pozo 3",
+          "comentario": "Sin comentario",
           "fase": "INTERMEDIA",
-          "fit": "2626",
-          "masp": "3125416",
-          "mw": "226",
-          "profundidad": "65",
-          "zapato": "235"
+          "fit": "0",
+          "masp": "0",
+          "mw": "0",
+          "profundidad": "0",
+          "zapato": "0"
         },
         {
-          "comentario": "asdas sd pozo 3",
+          "comentario": "Sin comentario",
           "fase": "AISLACION",
-          "fit": "65489",
-          "masp": "56484",
-          "mw": "5454",
-          "profundidad": "4898",
-          "zapato": "4984"
+          "fit": "0",
+          "masp": "0",
+          "mw": "0",
+          "profundidad": "0",
+          "zapato": "0"
         },
         {
-          "comentario": "asfa asfs pozo3",
+          "comentario": "Sin comentario",
           "fase": "AISLACION_REFUERZO",
-          "fit": "6898",
-          "masp": "5648",
-          "mw": "455216",
-          "profundidad": "8484",
-          "zapato": "84845"
+          "fit": "0",
+          "masp": "0",
+          "mw": "0",
+          "profundidad": "0",
+          "zapato": "0"
         }
       ],
       "formaciones": [
         {
           "formacion": "GR.NQN",
-          "md": "144",
-          "tvd": "254421"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "RAYOSO",
-          "md": "141",
-          "tvd": "2152"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "CENTENEARIO",
-          "md": "14",
-          "tvd": "2151"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "MULICHINGO",
-          "md": "454",
-          "tvd": "2151"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "QUINTUCO",
-          "md": "55",
-          "tvd": "28541"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "QTCO.MEDIO",
-          "md": "56558",
-          "tvd": "541"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "VACA MUERTA",
-          "md": "545",
-          "tvd": "2545"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "TD/TVD",
-          "md": "54",
-          "tvd": "6592"
+          "md": "0",
+          "tvd": "0"
         }
       ],
       "pozo": "Lca-03",
       "tipo": "OIB"
     },
     {
-      "comentarios": "asdasdasdasdikjhaisodnhpaosjdiphasfjlajspfosaiknflmapsnfpkanspfnmpanfspkask",
+      "comentarios": "Sin comentario",
       "estado": "ACTIVO",
       "fases": [
         {
-          "comentario": "Comentario pozo 4",
+          "comentario": "Sin comentario",
           "fase": "GUIA",
-          "fit": "45",
-          "masp": "65544",
-          "mw": "654564",
-          "profundidad": "3216",
-          "zapato": "56"
+          "fit": "0",
+          "masp": "0",
+          "mw": "0",
+          "profundidad": "0",
+          "zapato": "0"
         },
         {
-          "comentario": "comantario pozo 4",
+          "comentario": "Sin comentario",
           "fase": "INTERMEDIA",
-          "fit": "6545",
-          "masp": "642",
-          "mw": "58416",
-          "profundidad": "654",
-          "zapato": "5656"
+          "fit": "0",
+          "masp": "0",
+          "mw": "0",
+          "profundidad": "0",
+          "zapato": "0"
         },
         {
-          "comentario": "asd sdasdsa f4",
+          "comentario": "Sin comentario",
           "fase": "AISLACION",
-          "fit": "654",
-          "masp": "6465",
-          "mw": "654",
-          "profundidad": "654",
-          "zapato": "655"
+          "fit": "0",
+          "masp": "0",
+          "mw": "0",
+          "profundidad": "0",
+          "zapato": "0"
         },
         {
-          "comentario": "asdasdasd 4",
+          "comentario": "Sin comentario",
           "fase": "AISLACION_REFUERZO",
-          "fit": "6546",
-          "masp": "65498",
-          "mw": "365456",
-          "profundidad": "546584",
-          "zapato": "654"
+          "fit": "0",
+          "masp": "0",
+          "mw": "0",
+          "profundidad": "0",
+          "zapato": "0"
         }
       ],
       "formaciones": [
         {
           "formacion": "GR.NQN",
-          "md": "2551",
-          "tvd": "6964"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "RAYOSO",
-          "md": "212484",
-          "tvd": "325"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "CENTENEARIO",
-          "md": "458488",
-          "tvd": "3254"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "MULICHINGO",
-          "md": "88",
-          "tvd": "325"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "QUINTUCO",
-          "md": "888",
-          "tvd": "36512"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "QTCO.MEDIO",
-          "md": "58553",
-          "tvd": "254"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "VACA MUERTA",
-          "md": "51561",
-          "tvd": "25521"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "TD/TVD",
-          "md": "55",
-          "tvd": "25"
+          "md": "0",
+          "tvd": "0"
         }
       ],
       "pozo": "Lca-04",
       "tipo": "OSA"
     },
     {
-      "comentarios": "asdasdasfwq sasadjhiuobgfaikoshji´0fhas´fpojsapifnpaskpofjas pojaspfjopklasjp+foj aspjfpklmaspojfipnsakflmams pa pjsakfnksnf",
+      "comentarios": "Sin comentario",
       "estado": "ACTIVO",
       "fases": [
         {
-          "comentario": "65454",
+          "comentario": "Sin comentario",
           "fase": "GUIA",
-          "fit": "644",
-          "masp": "52411",
-          "mw": "54422 gr/lt",
-          "profundidad": "65625",
-          "zapato": "235456"
+          "fit": "0",
+          "masp": "0",
+          "mw": "0",
+          "profundidad": "0",
+          "zapato": "0"
         },
         {
-          "comentario": "545",
+          "comentario": "Sin comentario",
           "fase": "INTERMEDIA",
-          "fit": "145",
-          "masp": "245",
-          "mw": "54541",
-          "profundidad": "5141",
-          "zapato": "255"
+          "fit": "0",
+          "masp": "0",
+          "mw": "0",
+          "profundidad": "0",
+          "zapato": "0"
         },
         {
-          "comentario": "54",
+          "comentario": "Sin comentario",
           "fase": "AISLACION",
-          "fit": "545",
-          "masp": "251451",
-          "mw": "5151",
-          "profundidad": "5414",
-          "zapato": "2365"
+          "fit": "0",
+          "masp": "0",
+          "mw": "0",
+          "profundidad": "0",
+          "zapato": "0"
         },
         {
-          "comentario": "254",
+          "comentario": "Sin comentario",
           "fase": "AISLACION_REFUERZO",
-          "fit": "545",
-          "masp": "551",
-          "mw": "545",
-          "profundidad": "541",
-          "zapato": "55"
+          "fit": "0",
+          "masp": "0",
+          "mw": "0",
+          "profundidad": "0",
+          "zapato": "0"
         }
       ],
       "formaciones": [
         {
           "formacion": "GR.NQN",
-          "md": "11",
-          "tvd": "5"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "RAYOSO",
-          "md": "2",
-          "tvd": "252"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "CENTENEARIO",
-          "md": "3",
-          "tvd": "52"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "MULICHINGO",
-          "md": "5",
-          "tvd": "52"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "QUINTUCO",
-          "md": "6",
-          "tvd": "52 mts"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "QTCO.MEDIO",
-          "md": "6",
-          "tvd": "52 mts"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "VACA MUERTA",
-          "md": "6",
-          "tvd": "52 mts"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "TD/TVD",
-          "md": "6",
-          "tvd": "52 mts"
+          "md": "0",
+          "tvd": "0"
         }
       ],
       "pozo": "Lca-05",
       "tipo": "OIB"
     },
     {
-      "comentarios": "asdasdasfwq sasadjhiuobgfaikoshji´0fhas´fpojsapifnpaskpofjas pojaspfjopklasjp+foj aspjfpklmaspojfipnsakflmams pa pjsakfnksnf",
+      "comentarios": "Sin comentario",
       "estado": "ACTIVO",
       "fases": [
         {
