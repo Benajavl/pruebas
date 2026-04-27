@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-27T17:17:20.4127781Z",
+  "lastUpdate": "2026-04-27T17:19:44.2790252Z",
   "pad": "PAD B5",
   "pozos": [
     {
@@ -178,7 +178,7 @@
     },
     {
       "comentarios": "Sin comentario",
-      "estado": "INACTIVO",
+      "estado": "ACTIVO",
       "fases": [
         {
           "comentario": "Sin comentario",
@@ -392,7 +392,7 @@
       "formaciones": [
         {
           "formacion": "GR.NQN",
-          "md": "0",
+          "md": "8698 mts",
           "tvd": "0"
         },
         {
