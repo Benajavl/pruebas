@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-27T21:44:07.4698146Z",
+  "lastUpdate": "2026-04-27T21:44:56.0425515Z",
   "pad": "PAD B5",
   "pozos": [
     {
@@ -392,12 +392,12 @@
       "formaciones": [
         {
           "formacion": "GR.NQN",
-          "md": "8698 mts",
+          "md": "698 m",
           "tvd": "0"
         },
         {
           "formacion": "RAYOSO",
-          "md": "0",
+          "md": "1037,3 m",
           "tvd": "0"
         },
         {
