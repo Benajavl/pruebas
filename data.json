@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-27T21:42:44.0116585Z",
+  "lastUpdate": "2026-04-27T21:43:33.5645095Z",
   "pad": "PAD B5",
   "pozos": [
     {
@@ -371,7 +371,7 @@
           "zapato": "2115,01 m"
         },
         {
-          "comentario": "Finalizada, BPV y sección C colocada",
+          "comentario": "Finalizada, BPV y sección C colocada. PC 2300 m /",
           "fase": "AISLACION",
           "fit": "2300 g/l",
           "masp": "1200 psi",
