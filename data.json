@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-27T21:35:38.6700666Z",
+  "lastUpdate": "2026-04-27T21:36:18.1428497Z",
   "pad": "PAD B5",
   "pozos": [
     {
@@ -272,8 +272,8 @@
           "fit": "0",
           "masp": "0",
           "mw": "0",
-          "profundidad": "600,24 M",
-          "zapato": "615,40 M"
+          "profundidad": "600,24 m",
+          "zapato": "615,40 m"
         },
         {
           "comentario": "7,625\"/29,7#/P110​",
@@ -281,8 +281,8 @@
           "fit": "0",
           "masp": "0",
           "mw": "0",
-          "profundidad": "0",
-          "zapato": "2103,86 M ."
+          "profundidad": "2088,27 m",
+          "zapato": "2103,86 m"
         },
         {
           "comentario": "Finalizada, BPV y sección C colocada",
@@ -291,7 +291,7 @@
           "masp": "0",
           "mw": "0",
           "profundidad": "0",
-          "zapato": "0"
+          "zapato": "5756 m"
         },
         {
           "comentario": "Sin comentario",
