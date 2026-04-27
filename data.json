@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-27T21:30:20.9243231Z",
+  "lastUpdate": "2026-04-27T21:30:57.0810500Z",
   "pad": "PAD B5",
   "pozos": [
     {
@@ -186,8 +186,8 @@
           "fit": "0",
           "masp": "0",
           "mw": "0",
-          "profundidad": "594,76 M",
-          "zapato": "609,67 M"
+          "profundidad": "594,76 m",
+          "zapato": "2124,01 M"
         },
         {
           "comentario": "7,625\"/29,7#/P110​",
@@ -196,7 +196,7 @@
           "masp": "0",
           "mw": "0",
           "profundidad": "0",
-          "zapato": "0"
+          "zapato": "#¡REF!"
         },
         {
           "comentario": "Falta perforar. Realizar multifinger",
