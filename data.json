@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-27T22:37:41.3368708Z",
+  "lastUpdate": "2026-04-27T22:38:28.9721291Z",
   "pad": "PAD B5",
   "pozos": [
     {
@@ -517,7 +517,7 @@
           "tvd": "3060,01 m"
         }
       ],
-      "pozo": "Lca-3061",
+      "pozo": "Lca",
       "tipo": "CO"
     }
   ],
