@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-27T20:43:33.1031891Z",
+  "lastUpdate": "2026-04-27T20:44:12.8446974Z",
   "pad": "PAD B5",
   "pozos": [
     {
@@ -173,7 +173,7 @@
           "tvd": "0"
         }
       ],
-      "pozo": "Lca-02",
+      "pozo": "Lca-3057",
       "tipo": "CO"
     },
     {
@@ -259,7 +259,7 @@
           "tvd": "0"
         }
       ],
-      "pozo": "Lca-03",
+      "pozo": "Lca-3058",
       "tipo": "OIB"
     },
     {
@@ -345,7 +345,7 @@
           "tvd": "0"
         }
       ],
-      "pozo": "Lca-04",
+      "pozo": "Lca-3059",
       "tipo": "OSA"
     },
     {
@@ -431,7 +431,7 @@
           "tvd": "0"
         }
       ],
-      "pozo": "Lca-3057",
+      "pozo": "Lca-3060",
       "tipo": "OIB"
     },
     {
@@ -517,7 +517,7 @@
           "tvd": "0"
         }
       ],
-      "pozo": "Lca-3058",
+      "pozo": "Lca-3061",
       "tipo": "CO"
     }
   ],
