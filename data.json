@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-27T22:40:32.1607839Z",
+  "lastUpdate": "2026-04-27T22:41:56.8572213Z",
   "pad": "PAD B5",
   "pozos": [
     {
@@ -115,9 +115,9 @@
         {
           "comentario": "TD 5813 m. PC: 2667 MD/ 2651.72 TVD                                                                                   Finalizada, BPV y sección C colocada.",
           "fase": "AISLACION",
-          "fit": "0",
-          "masp": "0",
-          "mw": "0",
+          "fit": "2300 g/l",
+          "masp": "1200 psi",
+          "mw": "1900 g/l",
           "profundidad": "5787 m collar",
           "zapato": "5802,76 m"
         },
@@ -517,7 +517,7 @@
           "tvd": "3060,01 m"
         }
       ],
-      "pozo": "Lca",
+      "pozo": "Lca-3061",
       "tipo": "CO"
     }
   ],
