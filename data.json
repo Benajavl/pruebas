@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-27T21:25:59.2951621Z",
+  "lastUpdate": "2026-04-27T21:26:49.0740336Z",
   "pad": "PAD B5",
   "pozos": [
     {
@@ -113,7 +113,7 @@
           "zapato": "2115,01 m"
         },
         {
-          "comentario": "Finalizada, BPV y sección C colocada",
+          "comentario": "TD 5813 m. Finalizada, BPV y sección C colocada.",
           "fase": "AISLACION",
           "fit": "0",
           "masp": "0",
