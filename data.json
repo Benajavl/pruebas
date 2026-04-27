@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-27T21:36:18.1428497Z",
+  "lastUpdate": "2026-04-27T21:37:07.6540521Z",
   "pad": "PAD B5",
   "pozos": [
     {
@@ -311,17 +311,17 @@
         },
         {
           "formacion": "RAYOSO",
-          "md": "0",
+          "md": "591 m",
           "tvd": "0"
         },
         {
-          "formacion": "CENTENEARIO",
-          "md": "0",
-          "tvd": "0"
+          "formacion": "CENTENARIO",
+          "md": "1035 m",
+          "tvd": "1034 m"
         },
         {
           "formacion": "MULICHINGO",
-          "md": "0",
+          "md": "1963 m",
           "tvd": "0"
         },
         {
