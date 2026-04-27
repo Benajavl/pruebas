@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-27T21:33:32.6085907Z",
+  "lastUpdate": "2026-04-27T21:34:35.4531863Z",
   "pad": "PAD B5",
   "pozos": [
     {
@@ -240,8 +240,8 @@
         },
         {
           "formacion": "QUINTUCO",
-          "md": "2078 m",
-          "tvd": "0"
+          "md": "2084 m",
+          "tvd": "2062 m"
         },
         {
           "formacion": "QTCO.MEDIO",
