@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-27T21:23:30.9848293Z",
+  "lastUpdate": "2026-04-27T21:24:10.7840955Z",
   "pad": "PAD B5",
   "pozos": [
     {
@@ -119,7 +119,7 @@
           "masp": "0",
           "mw": "0",
           "profundidad": "0",
-          "zapato": "5802.76"
+          "zapato": "5802,76 m"
         },
         {
           "comentario": "Sin comentario",
@@ -139,12 +139,12 @@
         },
         {
           "formacion": "RAYOSO",
-          "md": "0",
-          "tvd": "0"
+          "md": "601 m",
+          "tvd": "601 m"
         },
         {
-          "formacion": "CENTENEARIO",
-          "md": "0",
+          "formacion": "CENTENARIO",
+          "md": "1038/1034",
           "tvd": "0"
         },
         {
