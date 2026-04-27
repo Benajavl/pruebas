@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-27T20:49:15.0144269Z",
+  "lastUpdate": "2026-04-27T20:50:02.3237962Z",
   "pad": "PAD B5",
   "pozos": [
     {
@@ -349,7 +349,7 @@
       "tipo": "OSA"
     },
     {
-      "comentarios": "Se esta realizando cementacion ",
+      "comentarios": "Sin comentario",
       "estado": "ACTIVO",
       "fases": [
         {
@@ -371,7 +371,7 @@
           "zapato": "0"
         },
         {
-          "comentario": "se esta haciendo ",
+          "comentario": "Finalizada, BPV y sección C colocada",
           "fase": "AISLACION",
           "fit": "0",
           "masp": "0",
