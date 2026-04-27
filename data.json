@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-27T21:16:37.0898984Z",
+  "lastUpdate": "2026-04-27T21:18:23.9650508Z",
   "pad": "PAD B5",
   "pozos": [
     {
@@ -431,7 +431,7 @@
           "tvd": "0"
         }
       ],
-      "pozo": "Palazzo",
+      "pozo": "LCa-3060",
       "tipo": "OIB"
     },
     {
