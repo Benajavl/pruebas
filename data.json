@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-27T21:39:34.6828469Z",
+  "lastUpdate": "2026-04-27T21:40:11.6462079Z",
   "pad": "PAD B5",
   "pozos": [
     {
@@ -291,7 +291,7 @@
           "masp": "1200 psi",
           "mw": "1900 g/l",
           "profundidad": "0",
-          "zapato": "5756 m"
+          "zapato": "5745,95 m"
         },
         {
           "comentario": "Sin comentario",
