@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-27T22:08:29.7103943Z",
+  "lastUpdate": "2026-04-27T22:21:07.8683533Z",
   "pad": "PAD B5",
   "pozos": [
     {
@@ -483,37 +483,37 @@
         },
         {
           "formacion": "RAYOSO",
-          "md": "0",
+          "md": "591 m",
           "tvd": "0"
         },
         {
-          "formacion": "CENTENEARIO",
-          "md": "0",
-          "tvd": "0"
+          "formacion": "CENTENARIO",
+          "md": "1037 m",
+          "tvd": "1034 m"
         },
         {
           "formacion": "MULICHINGO",
-          "md": "0",
-          "tvd": "0"
+          "md": "1962 m",
+          "tvd": "1952,6 m"
         },
         {
           "formacion": "QUINTUCO",
-          "md": "0",
+          "md": "1962 m",
           "tvd": "0"
         },
         {
           "formacion": "QTCO.MEDIO",
-          "md": "0",
+          "md": "1962 m",
           "tvd": "0"
         },
         {
           "formacion": "VACA MUERTA",
-          "md": "0",
+          "md": "1962 m",
           "tvd": "0"
         },
         {
           "formacion": "TD/TVD",
-          "md": "0",
+          "md": "1962 m",
           "tvd": "0"
         }
       ],
