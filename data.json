@@ -1,12 +1,12 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-27T12:16:16.3600001Z",
-  "pad": "PAD Prueba",
+  "lastUpdate": "2026-04-27T17:17:20.4127781Z",
+  "pad": "PAD B5",
   "pozos": [
     {
       "comentarios": "Sin comentario",
-      "estado": "ACTIVO",
+      "estado": "INACTIVO",
       "fases": [
         {
           "comentario": "Sin comentario",
@@ -92,7 +92,7 @@
     },
     {
       "comentarios": "Sin comentario",
-      "estado": "ACTIVO",
+      "estado": "INACTIVO",
       "fases": [
         {
           "comentario": "Sin comentario",
@@ -178,7 +178,7 @@
     },
     {
       "comentarios": "Sin comentario",
-      "estado": "ACTIVO",
+      "estado": "INACTIVO",
       "fases": [
         {
           "comentario": "Sin comentario",
@@ -264,7 +264,7 @@
     },
     {
       "comentarios": "Sin comentario",
-      "estado": "ACTIVO",
+      "estado": "INACTIVO",
       "fases": [
         {
           "comentario": "Sin comentario",
@@ -349,7 +349,7 @@
       "tipo": "OSA"
     },
     {
-      "comentarios": "Sin comentario",
+      "comentarios": "Se esta realizando cementacion ",
       "estado": "ACTIVO",
       "fases": [
         {
@@ -371,7 +371,7 @@
           "zapato": "0"
         },
         {
-          "comentario": "Sin comentario",
+          "comentario": "se esta haciendo ",
           "fase": "AISLACION",
           "fit": "0",
           "masp": "0",
@@ -431,7 +431,7 @@
           "tvd": "0"
         }
       ],
-      "pozo": "Lca-05",
+      "pozo": "Lca-3057",
       "tipo": "OIB"
     },
     {
@@ -517,7 +517,7 @@
           "tvd": "0"
         }
       ],
-      "pozo": "Lca-06",
+      "pozo": "Lca-3058",
       "tipo": "CO"
     }
   ],
