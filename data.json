@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-27T21:45:34.1975621Z",
+  "lastUpdate": "2026-04-27T21:46:10.2541202Z",
   "pad": "PAD B5",
   "pozos": [
     {
@@ -407,28 +407,28 @@
         },
         {
           "formacion": "MULICHINGO",
-          "md": "0",
-          "tvd": "0"
+          "md": "1962 m",
+          "tvd": "1952,7 m"
         },
         {
           "formacion": "QUINTUCO",
-          "md": "0",
-          "tvd": "0"
+          "md": "2072,5 m",
+          "tvd": "2062.7"
         },
         {
           "formacion": "QTCO.MEDIO",
-          "md": "0",
-          "tvd": "0"
+          "md": "2072,5 m",
+          "tvd": "2062.7"
         },
         {
           "formacion": "VACA MUERTA",
-          "md": "0",
-          "tvd": "0"
+          "md": "2072,5 m",
+          "tvd": "2062.7"
         },
         {
           "formacion": "TD/TVD",
-          "md": "0",
-          "tvd": "0"
+          "md": "2072,5 m",
+          "tvd": "2062.7"
         }
       ],
       "pozo": "LCa-3060",
