@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-27T21:08:48.7842050Z",
+  "lastUpdate": "2026-04-27T21:09:22.6934058Z",
   "pad": "PAD B5",
   "pozos": [
     {
@@ -29,14 +29,14 @@
         {
           "comentario": " PC: 2879 mMD/2844 mTVD. BUPT:1953 g/l; Max ECD en PVM 2200 g/l",
           "fase": "AISLACION",
-          "fit": "2300",
+          "fit": "2300 g/l",
           "masp": "1180 psi",
           "mw": "1900 g/l",
           "profundidad": "0",
           "zapato": "5767,22 m"
         },
         {
-          "comentario": "msldmf",
+          "comentario": "Sin comentario",
           "fase": "AISLACION_REFUERZO",
           "fit": "0",
           "masp": "0",
@@ -79,7 +79,7 @@
         {
           "formacion": "VACA MUERTA",
           "md": "2708 m",
-          "tvd": "0"
+          "tvd": "2678 m"
         },
         {
           "formacion": "TD/TVD",
