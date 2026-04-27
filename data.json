@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-27T20:59:14.2096131Z",
+  "lastUpdate": "2026-04-27T20:59:56.1560987Z",
   "pad": "PAD B5",
   "pozos": [
     {
@@ -20,7 +20,7 @@
         {
           "comentario": "7,625\"/29,7#/P110​",
           "fase": "INTERMEDIA",
-          "fit": "0",
+          "fit": "2109,33 m",
           "masp": "0",
           "mw": "0",
           "profundidad": "0",
