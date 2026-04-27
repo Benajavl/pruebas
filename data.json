@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-27T21:50:32.9718364Z",
+  "lastUpdate": "2026-04-27T22:08:29.7103943Z",
   "pad": "PAD B5",
   "pozos": [
     {
@@ -461,7 +461,7 @@
           "fase": "AISLACION",
           "fit": "2300 g/l",
           "masp": "0",
-          "mw": "0",
+          "mw": "1900 g/l",
           "profundidad": "5821,68 m",
           "zapato": "5837,6 m"
         },
