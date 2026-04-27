@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-27T20:54:37.2643485Z",
+  "lastUpdate": "2026-04-27T20:55:26.2347561Z",
   "pad": "PAD B5",
   "pozos": [
     {
@@ -9,8 +9,8 @@
       "estado": "ACTIVO",
       "fases": [
         {
-          "comentario": "honoi",
-          "fase": "GUIA 9,625/36#/K55",
+          "comentario": "9,625/36#/K55",
+          "fase": "GUIA ",
           "fit": "234",
           "masp": "234",
           "mw": "23434",
