@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-27T21:10:14.1442883Z",
+  "lastUpdate": "2026-04-27T21:10:49.3112290Z",
   "pad": "PAD B5",
   "pozos": [
     {
@@ -57,9 +57,9 @@
           "tvd": "591 m"
         },
         {
-          "formacion": "CENTENEARIO",
-          "md": "1042.09",
-          "tvd": "0"
+          "formacion": "CENTENARIO",
+          "md": "1042,9 m",
+          "tvd": "1033 m"
         },
         {
           "formacion": "MULICHINGO",
@@ -431,7 +431,7 @@
           "tvd": "0"
         }
       ],
-      "pozo": "Lca-3060",
+      "pozo": "Palazzo",
       "tipo": "OIB"
     },
     {
