@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-27T21:10:49.3112290Z",
+  "lastUpdate": "2026-04-27T21:11:21.4703044Z",
   "pad": "PAD B5",
   "pozos": [
     {
@@ -63,8 +63,8 @@
         },
         {
           "formacion": "MULICHINGO",
-          "md": "0",
-          "tvd": "0"
+          "md": "1981,4 m",
+          "tvd": "1953 m"
         },
         {
           "formacion": "QUINTUCO",
