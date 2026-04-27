@@ -1,11 +1,11 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-27T20:45:48.3967943Z",
+  "lastUpdate": "2026-04-27T20:46:30.6794496Z",
   "pad": "PAD B5",
   "pozos": [
     {
-      "comentarios": "Entuba cañería 5'; W463. Instala y asienta colgador. Desmonta ODS. ",
+      "comentarios": "Entuba cañería 5'; W463 hasta TD. Instala y asienta colgador. Desmonta ODS. Circula fondo arriba, coloca cabeza de cementación y cementa pozo según plan. ",
       "estado": "ACTIVO",
       "fases": [
         {
