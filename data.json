@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-27T22:21:07.8683533Z",
+  "lastUpdate": "2026-04-27T22:21:41.3956846Z",
   "pad": "PAD B5",
   "pozos": [
     {
@@ -499,7 +499,7 @@
         {
           "formacion": "QUINTUCO",
           "md": "1962 m",
-          "tvd": "0"
+          "tvd": "2062.65"
         },
         {
           "formacion": "QTCO.MEDIO",
@@ -509,12 +509,12 @@
         {
           "formacion": "VACA MUERTA",
           "md": "1962 m",
-          "tvd": "0"
+          "tvd": "2684 m"
         },
         {
           "formacion": "TD/TVD",
           "md": "1962 m",
-          "tvd": "0"
+          "tvd": "3060,01 m"
         }
       ],
       "pozo": "Lca-3061",
