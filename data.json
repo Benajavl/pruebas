@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-27T21:07:38.9278675Z",
+  "lastUpdate": "2026-04-27T21:08:13.6933309Z",
   "pad": "PAD B5",
   "pozos": [
     {
@@ -78,12 +78,12 @@
         },
         {
           "formacion": "VACA MUERTA",
-          "md": "2708 mMD",
+          "md": "2708 m",
           "tvd": "0"
         },
         {
           "formacion": "TD/TVD",
-          "md": "0",
+          "md": "5777,02 m",
           "tvd": "0"
         }
       ],
