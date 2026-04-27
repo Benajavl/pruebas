@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-27T21:32:56.3392518Z",
+  "lastUpdate": "2026-04-27T21:33:32.6085907Z",
   "pad": "PAD B5",
   "pozos": [
     {
@@ -245,8 +245,8 @@
         },
         {
           "formacion": "QTCO.MEDIO",
-          "md": "2417.2 md/2402 tvd​",
-          "tvd": "0"
+          "md": "2417,2 m",
+          "tvd": "2402 m"
         },
         {
           "formacion": "VACA MUERTA",
