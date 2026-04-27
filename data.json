@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-27T21:19:31.1880255Z",
+  "lastUpdate": "2026-04-27T21:20:09.2349922Z",
   "pad": "PAD B5",
   "pozos": [
     {
@@ -190,7 +190,7 @@
           "zapato": "0"
         },
         {
-          "comentario": "Sin comentario",
+          "comentario": "7,625\"/29,7#/P110​",
           "fase": "INTERMEDIA",
           "fit": "0",
           "masp": "0",
@@ -276,7 +276,7 @@
           "zapato": "0"
         },
         {
-          "comentario": "Sin comentario",
+          "comentario": "7,625\"/29,7#/P110​",
           "fase": "INTERMEDIA",
           "fit": "0",
           "masp": "0",
@@ -362,7 +362,7 @@
           "zapato": "0"
         },
         {
-          "comentario": "Sin comentario",
+          "comentario": "7,625\"/29,7#/P110​",
           "fase": "INTERMEDIA",
           "fit": "0",
           "masp": "0",
@@ -448,7 +448,7 @@
           "zapato": "0"
         },
         {
-          "comentario": "Sin comentario",
+          "comentario": "7,625\"/29,7#/P110​",
           "fase": "INTERMEDIA",
           "fit": "0",
           "masp": "0",
