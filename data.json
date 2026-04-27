@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-27T21:02:16.0460135Z",
+  "lastUpdate": "2026-04-27T21:04:20.8425664Z",
   "pad": "PAD B5",
   "pozos": [
     {
@@ -27,7 +27,7 @@
           "zapato": "2124,44 m"
         },
         {
-          "comentario": "sldkfnskdf",
+          "comentario": "Pase VM: PC: 2879 mMD",
           "fase": "AISLACION",
           "fit": "2300",
           "masp": "1180 psi",
