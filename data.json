@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-27T20:58:33.0510863Z",
+  "lastUpdate": "2026-04-27T20:59:14.2096131Z",
   "pad": "PAD B5",
   "pozos": [
     {
@@ -11,7 +11,7 @@
         {
           "comentario": "9,625\"/36#/K55",
           "fase": "GUIA ",
-          "fit": "0",
+          "fit": "615,12 m",
           "masp": "0",
           "mw": "0",
           "profundidad": "698 m",
@@ -23,8 +23,8 @@
           "fit": "0",
           "masp": "0",
           "mw": "0",
-          "profundidad": "23423",
-          "zapato": "23423"
+          "profundidad": "0",
+          "zapato": "2124,44 m"
         },
         {
           "comentario": "sldkfnskdf",
