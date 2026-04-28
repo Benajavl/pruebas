@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-04-28T13:15:41.2216992Z",
+  "lastUpdate": "2026-04-28T16:14:55.1157446Z",
   "pad": "PAD B5",
   "pozos": [
     {
@@ -187,7 +187,7 @@
           "masp": "0",
           "mw": "0",
           "profundidad": "594,76 m collar",
-          "zapato": "2124,01 m"
+          "zapato": "609,67 m"
         },
         {
           "comentario": "7,625\"/29,7#/P110​",
@@ -196,7 +196,7 @@
           "masp": "0",
           "mw": "0",
           "profundidad": "2108,54 m collar",
-          "zapato": "#¡REF!"
+          "zapato": "2124,01 m"
         },
         {
           "comentario": "Falta perforar. Realizar multifinger",
