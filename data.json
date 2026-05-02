@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-05-01T10:34:22.2668821Z",
+  "lastUpdate": "2026-05-02T06:04:12.6968582Z",
   "pad": "PAD B5",
   "pozos": [
     {
@@ -177,7 +177,7 @@
       "tipo": "CO"
     },
     {
-      "comentarios": "Sin comentario",
+      "comentarios": "PC 2832 m.",
       "estado": "ACTIVO",
       "fases": [
         {
