@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-05-04T10:09:46.4702511Z",
+  "lastUpdate": "2026-05-04T10:10:29.8630275Z",
   "pad": "PAD B5",
   "pozos": [
     {
@@ -199,7 +199,7 @@
           "zapato": "2124,01 m"
         },
         {
-          "comentario": "Falta perforar. Realizar multifinger.",
+          "comentario": " Realizar multifinger. PC 2832 m MD/ 2803 m TVD.LP 3102 nm MD/2941 m TVD. KOP 2718 m MD/ 2694 m TVD",
           "fase": "AISLACION",
           "fit": "0",
           "masp": "0",
