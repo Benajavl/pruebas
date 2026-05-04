@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-05-02T06:04:12.6968582Z",
+  "lastUpdate": "2026-05-04T10:09:46.4702511Z",
   "pad": "PAD B5",
   "pozos": [
     {
@@ -199,7 +199,7 @@
           "zapato": "2124,01 m"
         },
         {
-          "comentario": "Falta perforar. Realizar multifinger",
+          "comentario": "Falta perforar. Realizar multifinger.",
           "fase": "AISLACION",
           "fit": "0",
           "masp": "0",
