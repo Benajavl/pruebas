@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-05-31T18:47:54.8486928Z",
+  "lastUpdate": "2026-05-31T18:48:51.3489530Z",
   "pad": "PAD E1",
   "pozos": [
     {
@@ -177,7 +177,7 @@
       "tipo": "OIB"
     },
     {
-      "comentarios": "PC 2832 m.",
+      "comentarios": "Sin comentario",
       "estado": "ACTIVO",
       "fases": [
         {
@@ -225,33 +225,33 @@
         },
         {
           "formacion": "RAYOSO",
-          "md": "590 m",
-          "tvd": "590 m"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "CENTENARIO",
-          "md": "1039 m",
-          "tvd": "1034 m"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "MULICHINGO",
-          "md": "1973 m",
-          "tvd": "1952 m"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "QUINTUCO",
-          "md": "2084 m",
-          "tvd": "2062 m"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "QTCO.MEDIO",
-          "md": "2427 m",
-          "tvd": "2403 m"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "VACA MUERTA",
-          "md": "2703 m.",
-          "tvd": "2697 m"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "TD/TVD",
@@ -260,38 +260,38 @@
         }
       ],
       "pozo": "Lca-3375",
-      "tipo": "OIB"
+      "tipo": "CO"
     },
     {
       "comentarios": "Sin comentario",
       "estado": "ACTIVO",
       "fases": [
         {
-          "comentario": "9,625\"/36#/K55",
+          "comentario": "Sin comentario",
           "fase": "GUIA",
           "fit": "0",
           "masp": "0",
           "mw": "0",
-          "profundidad": "600,24 m collar",
-          "zapato": "615,40 m"
+          "profundidad": "0",
+          "zapato": "0"
         },
         {
-          "comentario": "7,625\"/29,7#/P110​",
+          "comentario": "Sin comentario",
           "fase": "INTERMEDIA",
           "fit": "0",
           "masp": "0",
           "mw": "0",
-          "profundidad": "2088,27 m collar",
-          "zapato": "2103,86 m"
+          "profundidad": "0",
+          "zapato": "0"
         },
         {
-          "comentario": "Finalizada, BPV y sección C colocada. PC 2688 m",
+          "comentario": "Sin comentario",
           "fase": "AISLACION",
-          "fit": "2300 g/l",
-          "masp": "1200 psi",
-          "mw": "1900 g/l",
+          "fit": "0",
+          "masp": "0",
+          "mw": "0",
           "profundidad": "0",
-          "zapato": "5745,95 m"
+          "zapato": "0"
         },
         {
           "comentario": "Sin comentario",
@@ -311,37 +311,37 @@
         },
         {
           "formacion": "RAYOSO",
-          "md": "591 m",
+          "md": "0",
           "tvd": "0"
         },
         {
           "formacion": "CENTENARIO",
-          "md": "1035 m",
-          "tvd": "1034 m"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "MULICHINGO",
-          "md": "1963 m",
-          "tvd": "1954,1 m"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "QUINTUCO",
-          "md": "2073,3 m",
-          "tvd": "2063,6 m"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "QTCO.MEDIO",
-          "md": "2411,7 m",
-          "tvd": "2401,2 m"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "VACA MUERTA",
-          "md": "2688 m",
-          "tvd": "2677,4 m"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "TD/TVD",
-          "md": "5756 m",
+          "md": "0",
           "tvd": "0"
         }
       ],
