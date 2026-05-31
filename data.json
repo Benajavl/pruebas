@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-05-31T15:54:12.3806138Z",
+  "lastUpdate": "2026-05-31T15:55:01.1252885Z",
   "pad": "PAD E1",
   "pozos": [
     {
@@ -362,7 +362,7 @@
           "zapato": "615,59 m"
         },
         {
-          "comentario": "7,625\"/29,7#/P110​",
+          "comentario": "Sin comentario",
           "fase": "INTERMEDIA",
           "fit": "0",
           "masp": "0",
@@ -371,11 +371,11 @@
           "zapato": "2115,01 m"
         },
         {
-          "comentario": "Finalizada, BPV y sección C colocada. PC 2300 m /2281 mTVD",
+          "comentario": "Sin comentario",
           "fase": "AISLACION",
-          "fit": "2300 g/l",
-          "masp": "1200 psi",
-          "mw": "1900 g/l",
+          "fit": "0",
+          "masp": "0",
+          "mw": "0",
           "profundidad": "5667 m collar",
           "zapato": "5682 m"
         },
@@ -448,7 +448,7 @@
           "zapato": "613,63 m"
         },
         {
-          "comentario": "7,625\"/29,7#/P110​",
+          "comentario": "Sin comentario",
           "fase": "INTERMEDIA",
           "fit": "0",
           "masp": "0",
@@ -457,11 +457,11 @@
           "zapato": "2109,76 m"
         },
         {
-          "comentario": "Finalizada, BPV y sección C colocada",
+          "comentario": "Sin comentario",
           "fase": "AISLACION",
-          "fit": "2300 g/l",
+          "fit": "0",
           "masp": "0",
-          "mw": "1900 g/l",
+          "mw": "0",
           "profundidad": "5837,6  m collar",
           "zapato": "5837,6 m"
         },
