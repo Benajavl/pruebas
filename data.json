@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-05-31T15:58:02.2771185Z",
+  "lastUpdate": "2026-05-31T18:38:34.8698798Z",
   "pad": "PAD E1",
   "pozos": [
     {
@@ -53,7 +53,7 @@
         },
         {
           "formacion": "RAYOSO",
-          "md": "591 m",
+          "md": "560",
           "tvd": "591 m"
         },
         {
