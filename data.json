@@ -1,11 +1,11 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-05-31T18:38:34.8698798Z",
+  "lastUpdate": "2026-05-31T18:40:41.8076813Z",
   "pad": "PAD E1",
   "pozos": [
     {
-      "comentarios": "Entuba cañería 5'; W463 desde 4305 m hasta TD, quedando zapato en 5767,22 m . Instala y asienta colgador. Desmonta ODS. Circula fondo arriba, coloca cabeza de cementación y cementa aislación según plan. ",
+      "comentarios": "Cementa guia off line. Seccion AB colocada sin bridas 2 1/16' 5k -10k.",
       "estado": "ACTIVO",
       "fases": [
         {
@@ -54,37 +54,37 @@
         {
           "formacion": "RAYOSO",
           "md": "560",
-          "tvd": "591 m"
+          "tvd": "560"
         },
         {
           "formacion": "CENTENARIO",
-          "md": "1042,9 m",
-          "tvd": "1033 m"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "MULICHINGO",
-          "md": "1981,4 m",
-          "tvd": "1953 m"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "QUINTUCO",
-          "md": "2090 m",
-          "tvd": "2062 m"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "QTCO.MEDIO",
-          "md": "2427 m",
-          "tvd": "2397 m"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "VACA MUERTA",
-          "md": "2708 m",
-          "tvd": "2678 m"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "TD/TVD",
-          "md": "5777,02 m",
-          "tvd": "3002 m"
+          "md": "0",
+          "tvd": "0"
         }
       ],
       "pozo": "Lca-3373",
