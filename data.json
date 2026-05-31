@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-05-31T18:49:40.6751085Z",
+  "lastUpdate": "2026-05-31T18:50:51.3302924Z",
   "pad": "PAD E1",
   "pozos": [
     {
@@ -181,7 +181,7 @@
       "estado": "ACTIVO",
       "fases": [
         {
-          "comentario": "Sin comentario",
+          "comentario": "13 3/8, 54.5, K-55, BTC.",
           "fase": "GUIA",
           "fit": "0",
           "masp": "0",
@@ -267,7 +267,7 @@
       "estado": "ACTIVO",
       "fases": [
         {
-          "comentario": "Sin comentario",
+          "comentario": "13 3/8, 54.5, K-55, BTC.",
           "fase": "GUIA",
           "fit": "0",
           "masp": "0",
@@ -353,7 +353,7 @@
       "estado": "ACTIVO",
       "fases": [
         {
-          "comentario": "Sin comentario",
+          "comentario": "13 3/8, 54.5, K-55, BTC.",
           "fase": "GUIA",
           "fit": "0",
           "masp": "0",
@@ -439,7 +439,7 @@
       "estado": "ACTIVO",
       "fases": [
         {
-          "comentario": "9,625\"/36#/K55",
+          "comentario": "13 3/8, 54.5, K-55, BTC.",
           "fase": "GUIA",
           "fit": "0",
           "masp": "0",
