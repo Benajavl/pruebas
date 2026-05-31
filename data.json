@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-05-31T18:53:16.9463931Z",
+  "lastUpdate": "2026-05-31T22:01:09.8810829Z",
   "pad": "PAD E1",
   "pozos": [
     {
@@ -91,7 +91,7 @@
       "tipo": "OMA"
     },
     {
-      "comentarios": "Sin comentario",
+      "comentarios": "GABY CARGA LO QUE FALTA",
       "estado": "ACTIVO",
       "fases": [
         {
