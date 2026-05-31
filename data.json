@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-05-31T18:48:51.3489530Z",
+  "lastUpdate": "2026-05-31T18:49:40.6751085Z",
   "pad": "PAD E1",
   "pozos": [
     {
@@ -346,20 +346,20 @@
         }
       ],
       "pozo": "Lca-3376",
-      "tipo": "OSA"
+      "tipo": "OMA"
     },
     {
       "comentarios": "Sin comentario",
       "estado": "ACTIVO",
       "fases": [
         {
-          "comentario": "9,625\"/36#/K55",
+          "comentario": "Sin comentario",
           "fase": "GUIA",
           "fit": "0",
           "masp": "0",
           "mw": "0",
-          "profundidad": "600,57 m collar",
-          "zapato": "615,59 m"
+          "profundidad": "0",
+          "zapato": "0"
         },
         {
           "comentario": "Sin comentario",
@@ -367,8 +367,8 @@
           "fit": "0",
           "masp": "0",
           "mw": "0",
-          "profundidad": "2099,27 m collar",
-          "zapato": "2115,01 m"
+          "profundidad": "0",
+          "zapato": "0"
         },
         {
           "comentario": "Sin comentario",
@@ -376,8 +376,8 @@
           "fit": "0",
           "masp": "0",
           "mw": "0",
-          "profundidad": "5667 m collar",
-          "zapato": "5682 m"
+          "profundidad": "0",
+          "zapato": "0"
         },
         {
           "comentario": "Sin comentario",
@@ -397,42 +397,42 @@
         },
         {
           "formacion": "RAYOSO",
-          "md": "698 m",
+          "md": "0",
           "tvd": "0"
         },
         {
           "formacion": "CENTENARIO",
-          "md": "1037,3 m",
-          "tvd": "1034 m"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "MULICHINGO",
-          "md": "1962 m",
-          "tvd": "1952,7 m"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "QUINTUCO",
-          "md": "2072,5 m",
-          "tvd": "2062.7"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "QTCO.MEDIO",
-          "md": "2072,5 m",
-          "tvd": "2062.7"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "VACA MUERTA",
-          "md": "2072,5 m",
-          "tvd": "2062.7"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "TD/TVD",
-          "md": "2072,5 m",
-          "tvd": "2062.7"
+          "md": "0",
+          "tvd": "0"
         }
       ],
       "pozo": "Lca-3377",
-      "tipo": "OIB"
+      "tipo": "CO"
     },
     {
       "comentarios": "Sin comentario",
@@ -444,8 +444,8 @@
           "fit": "0",
           "masp": "0",
           "mw": "0",
-          "profundidad": "598,45 m collar",
-          "zapato": "613,63 m"
+          "profundidad": "0",
+          "zapato": "0"
         },
         {
           "comentario": "Sin comentario",
@@ -453,8 +453,8 @@
           "fit": "0",
           "masp": "0",
           "mw": "0",
-          "profundidad": "2094,64 m collar",
-          "zapato": "2109,76 m"
+          "profundidad": "0",
+          "zapato": "0"
         },
         {
           "comentario": "Sin comentario",
@@ -462,8 +462,8 @@
           "fit": "0",
           "masp": "0",
           "mw": "0",
-          "profundidad": "5837,6  m collar",
-          "zapato": "5837,6 m"
+          "profundidad": "0",
+          "zapato": "0"
         },
         {
           "comentario": "Sin comentario",
@@ -483,42 +483,42 @@
         },
         {
           "formacion": "RAYOSO",
-          "md": "591 m",
+          "md": "0",
           "tvd": "0"
         },
         {
           "formacion": "CENTENARIO",
-          "md": "1037 m",
-          "tvd": "1034 m"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "MULICHINGO",
-          "md": "1962 m",
-          "tvd": "1952,6 m"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "QUINTUCO",
-          "md": "1962 m",
-          "tvd": "2062.65"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "QTCO.MEDIO",
-          "md": "1962 m",
+          "md": "0",
           "tvd": "0"
         },
         {
           "formacion": "VACA MUERTA",
-          "md": "1962 m",
-          "tvd": "2684 m"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "TD/TVD",
-          "md": "1962 m",
-          "tvd": "3060,01 m"
+          "md": "0",
+          "tvd": "0"
         }
       ],
       "pozo": "Lca-3378",
-      "tipo": "CO"
+      "tipo": "OIB"
     }
   ],
   "yacimiento": "La Calera"
