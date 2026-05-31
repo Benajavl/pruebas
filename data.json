@@ -1,8 +1,8 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-05-04T10:11:12.6668730Z",
-  "pad": "PAD B5",
+  "lastUpdate": "2026-05-31T15:45:40.7633500Z",
+  "pad": "PAD E1",
   "pozos": [
     {
       "comentarios": "Entuba cañería 5'; W463 desde 4305 m hasta TD, quedando zapato en 5767,22 m . Instala y asienta colgador. Desmonta ODS. Circula fondo arriba, coloca cabeza de cementación y cementa aislación según plan. ",
@@ -34,6 +34,42 @@
           "mw": "1900 g/l",
           "profundidad": "0",
           "zapato": "5767,22 m"
+        },
+        {
+          "comentario": "Sin comentario",
+          "fase": "AISLACION_REFUERZO",
+          "fit": "0",
+          "masp": "0",
+          "mw": "0",
+          "profundidad": "0",
+          "zapato": "0"
+        },
+        {
+          "comentario": "9,625\"/36#/K55",
+          "fase": "GUIA",
+          "fit": "0",
+          "masp": "0",
+          "mw": "0",
+          "profundidad": "600,57 m collar",
+          "zapato": "615,59 m"
+        },
+        {
+          "comentario": "7,625\"/29,7#/P110​",
+          "fase": "INTERMEDIA",
+          "fit": "0",
+          "masp": "0",
+          "mw": "0",
+          "profundidad": "2099,27 m collar",
+          "zapato": "2115,01 m"
+        },
+        {
+          "comentario": "TD 5813 m. PC: 2667 MD/ 2651.72 TVD                                                                                   Finalizada, BPV y sección C colocada.",
+          "fase": "AISLACION",
+          "fit": "2300 g/l",
+          "masp": "1200 psi",
+          "mw": "1900 g/l",
+          "profundidad": "5787 m collar",
+          "zapato": "5802,76 m"
         },
         {
           "comentario": "Sin comentario",
@@ -85,15 +121,91 @@
           "formacion": "TD/TVD",
           "md": "5777,02 m",
           "tvd": "3002 m"
+        },
+        {
+          "formacion": "GR.NQN",
+          "md": "0",
+          "tvd": "0"
+        },
+        {
+          "formacion": "RAYOSO",
+          "md": "601 m",
+          "tvd": "601 m"
+        },
+        {
+          "formacion": "CENTENARIO",
+          "md": "1038 m",
+          "tvd": "1034 m"
+        },
+        {
+          "formacion": "MULICHINGO",
+          "md": "1966 m",
+          "tvd": "1951 m"
+        },
+        {
+          "formacion": "QUINTUCO",
+          "md": "2078 m",
+          "tvd": "0"
+        },
+        {
+          "formacion": "QTCO.MEDIO",
+          "md": "2417,2 m",
+          "tvd": "2402 m"
+        },
+        {
+          "formacion": "VACA MUERTA",
+          "md": "2693 m",
+          "tvd": "2678 m"
+        },
+        {
+          "formacion": "TD/TVD",
+          "md": "5813 m",
+          "tvd": "0"
         }
       ],
-      "pozo": "Lca-3056",
+      "pozo": "Lca-3373",
       "tipo": "OHA"
     },
     {
-      "comentarios": "Sin comentario",
+      "comentarios": "Entuba cañería 5'; W463 desde 4305 m hasta TD, quedando zapato en 5767,22 m . Instala y asienta colgador. Desmonta ODS. Circula fondo arriba, coloca cabeza de cementación y cementa aislación según plan. ",
       "estado": "ACTIVO",
       "fases": [
+        {
+          "comentario": "9,625\"/36#/K55",
+          "fase": "GUIA ",
+          "fit": "0",
+          "masp": "0",
+          "mw": "0",
+          "profundidad": "615,12 m collar",
+          "zapato": "630,86 m"
+        },
+        {
+          "comentario": "7,625\"/29,7#/P110​",
+          "fase": "INTERMEDIA",
+          "fit": "0",
+          "masp": "0",
+          "mw": "0",
+          "profundidad": "2109,33 m collar",
+          "zapato": "2124,44 m"
+        },
+        {
+          "comentario": " PC: 2879 mMD/2844 mTVD. BUPT:1953 g/l; Max ECD en PVM 2200 g/l. KM 2010 g/l. Pérdidas por filtración menores a 400 l/h durante toda la perforación. CMT larga",
+          "fase": "AISLACION",
+          "fit": "2300 g/l",
+          "masp": "1192 psi",
+          "mw": "1900 g/l",
+          "profundidad": "0",
+          "zapato": "5767,22 m"
+        },
+        {
+          "comentario": "Sin comentario",
+          "fase": "AISLACION_REFUERZO",
+          "fit": "0",
+          "masp": "0",
+          "mw": "0",
+          "profundidad": "0",
+          "zapato": "0"
+        },
         {
           "comentario": "9,625\"/36#/K55",
           "fase": "GUIA",
@@ -139,6 +251,46 @@
         },
         {
           "formacion": "RAYOSO",
+          "md": "591 m",
+          "tvd": "591 m"
+        },
+        {
+          "formacion": "CENTENARIO",
+          "md": "1042,9 m",
+          "tvd": "1033 m"
+        },
+        {
+          "formacion": "MULICHINGO",
+          "md": "1981,4 m",
+          "tvd": "1953 m"
+        },
+        {
+          "formacion": "QUINTUCO",
+          "md": "2090 m",
+          "tvd": "2062 m"
+        },
+        {
+          "formacion": "QTCO.MEDIO",
+          "md": "2427 m",
+          "tvd": "2397 m"
+        },
+        {
+          "formacion": "VACA MUERTA",
+          "md": "2708 m",
+          "tvd": "2678 m"
+        },
+        {
+          "formacion": "TD/TVD",
+          "md": "5777,02 m",
+          "tvd": "3002 m"
+        },
+        {
+          "formacion": "GR.NQN",
+          "md": "0",
+          "tvd": "0"
+        },
+        {
+          "formacion": "RAYOSO",
           "md": "601 m",
           "tvd": "601 m"
         },
@@ -173,7 +325,7 @@
           "tvd": "0"
         }
       ],
-      "pozo": "Lca-3057",
+      "pozo": "Lca-3373",
       "tipo": "CO"
     },
     {
