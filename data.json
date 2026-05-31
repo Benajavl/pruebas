@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-05-31T18:41:32.0165997Z",
+  "lastUpdate": "2026-05-31T18:42:19.9212433Z",
   "pad": "PAD E1",
   "pozos": [
     {
@@ -9,7 +9,7 @@
       "estado": "ACTIVO",
       "fases": [
         {
-          "comentario": "9,625\"/36#/K55",
+          "comentario": "13 3/8, 54.5, K-55, BTC",
           "fase": "GUIA ",
           "fit": "0",
           "masp": "0",
