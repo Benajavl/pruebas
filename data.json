@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-05-31T18:46:45.6164442Z",
+  "lastUpdate": "2026-05-31T18:47:54.8486928Z",
   "pad": "PAD E1",
   "pozos": [
     {
@@ -100,8 +100,8 @@
           "fit": "0",
           "masp": "0",
           "mw": "0",
-          "profundidad": "600,57 m collar",
-          "zapato": "615,59 m"
+          "profundidad": "0",
+          "zapato": "0"
         },
         {
           "comentario": "Sin comentario",
@@ -139,67 +139,67 @@
         },
         {
           "formacion": "RAYOSO",
-          "md": "601 m",
-          "tvd": "601 m"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "CENTENARIO",
-          "md": "1038 m",
-          "tvd": "1034 m"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "MULICHINGO",
-          "md": "1966 m",
-          "tvd": "1951 m"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "QUINTUCO",
-          "md": "2078 m",
+          "md": "0",
           "tvd": "0"
         },
         {
           "formacion": "QTCO.MEDIO",
-          "md": "2417,2 m",
-          "tvd": "2402 m"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "VACA MUERTA",
-          "md": "2693 m",
-          "tvd": "2678 m"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "TD/TVD",
-          "md": "5813 m",
+          "md": "0",
           "tvd": "0"
         }
       ],
       "pozo": "Lca-3374",
-      "tipo": "CO"
+      "tipo": "OIB"
     },
     {
       "comentarios": "PC 2832 m.",
       "estado": "ACTIVO",
       "fases": [
         {
-          "comentario": "9,625\"/36#/K55",
+          "comentario": "Sin comentario",
           "fase": "GUIA",
           "fit": "0",
           "masp": "0",
           "mw": "0",
-          "profundidad": "594,76 m collar",
-          "zapato": "609,67 m"
+          "profundidad": "0",
+          "zapato": "0"
         },
         {
-          "comentario": "7,625\"/29,7#/P110​",
+          "comentario": "Sin comentario",
           "fase": "INTERMEDIA",
           "fit": "0",
           "masp": "0",
           "mw": "0",
-          "profundidad": "2108,54 m collar",
-          "zapato": "2124,01 m"
+          "profundidad": "0",
+          "zapato": "0"
         },
         {
-          "comentario": " Realizar multifinger. PC 2832 m MD/ 2803 m TVD.LP 3102 nm MD/2941 m TVD. KOP 2718 m MD/ 2694 m TVD",
+          "comentario": "Sin comentario",
           "fase": "AISLACION",
           "fit": "0",
           "masp": "0",
