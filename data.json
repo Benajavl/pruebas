@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-06-01T18:46:11.4529501Z",
+  "lastUpdate": "2026-06-01T18:46:59.4894485Z",
   "pad": "PAD E1",
   "pozos": [
     {
@@ -139,8 +139,8 @@
         },
         {
           "formacion": "RAYOSO",
-          "md": "0",
-          "tvd": "0"
+          "md": "560",
+          "tvd": "560"
         },
         {
           "formacion": "CENTENARIO",
@@ -312,7 +312,7 @@
         {
           "formacion": "RAYOSO",
           "md": "560",
-          "tvd": "0"
+          "tvd": "560"
         },
         {
           "formacion": "CENTENARIO",
@@ -483,8 +483,8 @@
         },
         {
           "formacion": "RAYOSO",
-          "md": "0",
-          "tvd": "0"
+          "md": "560",
+          "tvd": "560"
         },
         {
           "formacion": "CENTENARIO",
