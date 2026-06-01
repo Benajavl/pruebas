@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-06-01T18:48:36.9367815Z",
+  "lastUpdate": "2026-06-01T19:02:08.8033007Z",
   "pad": "PAD E1",
   "pozos": [
     {
@@ -435,7 +435,7 @@
       "tipo": "CO"
     },
     {
-      "comentarios": "Sin comentario",
+      "comentarios": "Perforando con BHA direccional",
       "estado": "ACTIVO",
       "fases": [
         {
