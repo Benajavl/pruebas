@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-06-01T01:48:54.5890431Z",
+  "lastUpdate": "2026-06-01T17:44:35.4428544Z",
   "pad": "PAD E1",
   "pozos": [
     {
@@ -91,7 +91,7 @@
       "tipo": "OMA"
     },
     {
-      "comentarios": "juan Mansur: Cargar todos los datos",
+      "comentarios": "Sin comentario",
       "estado": "ACTIVO",
       "fases": [
         {
