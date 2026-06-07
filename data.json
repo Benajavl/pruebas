@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-06-06T14:36:20.4496473Z",
+  "lastUpdate": "2026-06-07T04:09:58.8715953Z",
   "pad": "PAD E1",
   "pozos": [
     {
@@ -355,9 +355,9 @@
         {
           "comentario": "13 3/8, 54.5, K-55, BTC.",
           "fase": "GUIA",
-          "fit": "0",
-          "masp": "0",
-          "mw": "0",
+          "fit": "200",
+          "masp": "220",
+          "mw": "1200",
           "profundidad": "395",
           "zapato": "390.14"
         },
