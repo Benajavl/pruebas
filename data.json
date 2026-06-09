@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-06-09T20:37:25.2765954Z",
+  "lastUpdate": "2026-06-09T20:44:56.4796243Z",
   "pad": "PAD E1",
   "pozos": [
     {
@@ -403,12 +403,12 @@
         {
           "formacion": "CENTENARIO",
           "md": "826",
-          "tvd": "0"
+          "tvd": "815.88"
         },
         {
           "formacion": "MULICHINGO",
           "md": "1778",
-          "tvd": "0"
+          "tvd": "1750.83"
         },
         {
           "formacion": "QUINTUCO",
