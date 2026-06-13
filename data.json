@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-06-13T10:51:13.9617086Z",
+  "lastUpdate": "2026-06-13T10:51:52.9817716Z",
   "pad": "PAD E1",
   "pozos": [
     {
@@ -362,7 +362,7 @@
           "zapato": "390.14"
         },
         {
-          "comentario": "Sin comentario",
+          "comentario": "9 5/8, 40 lb/ft,P110-ICY, TBL",
           "fase": "INTERMEDIA",
           "fit": "0",
           "masp": "0",
