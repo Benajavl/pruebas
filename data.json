@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-06-13T10:52:41.2457926Z",
+  "lastUpdate": "2026-06-15T18:14:53.2271941Z",
   "pad": "PAD E1",
   "pozos": [
     {
@@ -349,7 +349,7 @@
       "tipo": "OMA"
     },
     {
-      "comentarios": "Cementa guia off line. Seccion AB colocada sin bridas 2 1/16' 5k -10k. Tope de collar 377.94 mts. Perfil CBL VDL realizado.",
+      "comentarios": "Cementa guia off line. Seccion AB colocada sin bridas 2 1/16' 5k -10k. Tope de collar 377.94 mts. Perfil CBL VDL realizado. Se realizo perfil a la intermedia 1",
       "estado": "ACTIVO",
       "fases": [
         {
