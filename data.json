@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-06-23T18:38:44.8661960Z",
+  "lastUpdate": "2026-06-23T18:39:29.3940126Z",
   "pad": "PAD E1",
   "pozos": [
     {
@@ -412,22 +412,22 @@
         },
         {
           "formacion": "QUINTUCO",
-          "md": "0",
+          "md": "1891",
           "tvd": "0"
         },
         {
           "formacion": "QTCO.MEDIO",
-          "md": "0",
+          "md": "1891",
           "tvd": "0"
         },
         {
           "formacion": "VACA MUERTA",
-          "md": "0",
+          "md": "1891",
           "tvd": "0"
         },
         {
           "formacion": "TD/TVD",
-          "md": "0",
+          "md": "1891",
           "tvd": "0"
         }
       ],
