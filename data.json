@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-06-27T05:07:03.5850975Z",
+  "lastUpdate": "2026-06-30T20:06:31.3244279Z",
   "pad": "PAD E1",
   "pozos": [
     {
@@ -371,7 +371,7 @@
           "zapato": "1935.97"
         },
         {
-          "comentario": "Sin comentario",
+          "comentario": "Landing Point: 3053,7 MD / 2866,17 TVD",
           "fase": "AISLACION",
           "fit": "0",
           "masp": "0",
