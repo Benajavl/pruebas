@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-07-03T14:40:28.7101869Z",
+  "lastUpdate": "2026-07-04T12:41:52.3995804Z",
   "pad": "PAD E1",
   "pozos": [
     {
@@ -9,7 +9,7 @@
       "estado": "ACTIVO",
       "fases": [
         {
-          "comentario": "13 3/8, 54.5, K-55, BTC",
+          "comentario": "13 3/8, 54.5, K-55, BTCCement Tipo A",
           "fase": "GUIA ",
           "fit": "1600",
           "masp": "212",
@@ -18,7 +18,7 @@
           "zapato": "382.55m."
         },
         {
-          "comentario": "Sin comentario",
+          "comentario": "9 5/8, 40 lb/ft,P110-ICY, TBL.Cement Tipo G",
           "fase": "INTERMEDIA",
           "fit": "2300",
           "masp": "1085",
@@ -95,7 +95,7 @@
       "estado": "ACTIVO",
       "fases": [
         {
-          "comentario": "13 3/8, 54.5, K-55, BTC.",
+          "comentario": "13 3/8, 54.5, K-55, BTC.Cement Tipo A",
           "fase": "GUIA",
           "fit": "0",
           "masp": "0",
@@ -181,7 +181,7 @@
       "estado": "ACTIVO",
       "fases": [
         {
-          "comentario": "13 3/8, 54.5, K-55, BTC.",
+          "comentario": "13 3/8, 54.5, K-55, BTC.Cement Tipo A",
           "fase": "GUIA",
           "fit": "0",
           "masp": "0",
@@ -267,7 +267,7 @@
       "estado": "ACTIVO",
       "fases": [
         {
-          "comentario": "13 3/8, 54.5, K-55, BTC.",
+          "comentario": "13 3/8, 54.5, K-55, BTC.Cement Tipo A",
           "fase": "GUIA",
           "fit": "0",
           "masp": "0",
@@ -353,7 +353,7 @@
       "estado": "ACTIVO",
       "fases": [
         {
-          "comentario": "13 3/8, 54.5, K-55, BTC.",
+          "comentario": "13 3/8, 54.5, K-55, BTC. Cement Tipo A",
           "fase": "GUIA",
           "fit": "1600",
           "masp": "220",
@@ -362,7 +362,7 @@
           "zapato": "390.14"
         },
         {
-          "comentario": "9 5/8, 40 lb/ft,P110-ICY, TBL",
+          "comentario": "9 5/8, 40 lb/ft,P110-ICY, TBL.Cement Tipo G",
           "fase": "INTERMEDIA",
           "fit": "2300",
           "masp": "1085",
@@ -439,7 +439,7 @@
       "estado": "ACTIVO",
       "fases": [
         {
-          "comentario": "13 3/8, 54.5, K-55, BTC.",
+          "comentario": "13 3/8, 54.5, K-55, BTC.Cement Tipo A",
           "fase": "GUIA",
           "fit": "0",
           "masp": "0",
