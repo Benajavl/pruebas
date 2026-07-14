@@ -1,11 +1,11 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-07-14T17:34:44.1195909Z",
+  "lastUpdate": "2026-07-14T17:45:15.4567178Z",
   "pad": "PAD E1",
   "pozos": [
     {
-      "comentarios": "Cementa guia off line. Seccion AB colocada sin bridas 2 1/16' 5k -10k. Tope de collar 370.99mts. Perfil CBL VDL realizado. Se realizo perfil a la intermedia 1. Prueba BOP. Cambia IBOP,doble pin y wash pipe en TDS.Realiza DFIT con 2200 g/l OK. ( -0,5 m3).Cambio BHA 8¾' por 6¾' y perforo hasta 3045 m.",
+      "comentarios": "Cementa guia off line. Seccion AB colocada sin bridas 2 1/16' 5k -10k. Tope de collar 370.99mts. Perfil CBL VDL realizado. Se realizo perfil a la intermedia 1. Prueba BOP. Cambia doble pin y wash pipe en TDS.Realiza DFIT con 2200 g/l OK. ( -0,5 m3).Cambio BHA 8¾' por 6¾' y perforo hasta 3045 m.",
       "estado": "ACTIVO",
       "fases": [
         {
