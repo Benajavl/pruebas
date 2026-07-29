@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-07-29T17:10:46.0176832Z",
+  "lastUpdate": "2026-07-29T17:12:05.2047512Z",
   "pad": "PAD E1",
   "pozos": [
     {
@@ -453,8 +453,8 @@
           "fit": "0",
           "masp": "0",
           "mw": "0",
-          "profundidad": "0",
-          "zapato": "0"
+          "profundidad": "1925",
+          "zapato": "1917.41"
         },
         {
           "comentario": "Sin comentario",
