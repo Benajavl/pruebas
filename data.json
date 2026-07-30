@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-07-30T03:00:54.7189285Z",
+  "lastUpdate": "2026-07-30T06:02:42.1613286Z",
   "pad": "PAD E1",
   "pozos": [
     {
@@ -316,7 +316,7 @@
         },
         {
           "formacion": "CENTENARIO",
-          "md": "0",
+          "md": "799",
           "tvd": "0"
         },
         {
