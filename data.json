@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-07-29T17:13:26.7700728Z",
+  "lastUpdate": "2026-07-30T02:02:35.1974624Z",
   "pad": "PAD E1",
   "pozos": [
     {
@@ -448,7 +448,7 @@
           "zapato": "392.6"
         },
         {
-          "comentario": "7 ¾\", 29.7, P110-W463. Cemento tipo G",
+          "comentario": "7 ¾\", 29.7, P110-W463. Cemento tipo G. BPV -ST 161 colocada.",
           "fase": "INTERMEDIA",
           "fit": "0",
           "masp": "0",
