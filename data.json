@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-07-30T06:11:01.2700686Z",
+  "lastUpdate": "2026-07-30T08:32:32.5690280Z",
   "pad": "PAD E1",
   "pozos": [
     {
@@ -281,7 +281,7 @@
           "fit": "0",
           "masp": "0",
           "mw": "0",
-          "profundidad": "0",
+          "profundidad": "1913",
           "zapato": "0"
         },
         {
@@ -326,8 +326,8 @@
         },
         {
           "formacion": "QUINTUCO",
-          "md": "0",
-          "tvd": "0"
+          "md": "1878.5",
+          "tvd": "1863.1"
         },
         {
           "formacion": "QTCO.MEDIO",
