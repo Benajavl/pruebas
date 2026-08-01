@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-07-30T08:32:32.5690280Z",
+  "lastUpdate": "2026-08-01T10:30:01.6890528Z",
   "pad": "PAD E1",
   "pozos": [
     {
@@ -183,9 +183,9 @@
         {
           "comentario": "13 3/8, 54.5, K-55, BTC.Cement Tipo A",
           "fase": "GUIA",
-          "fit": "0",
-          "masp": "0",
-          "mw": "0",
+          "fit": "1600",
+          "masp": "230",
+          "mw": "1200",
           "profundidad": "392m.",
           "zapato": "386.9m."
         },
