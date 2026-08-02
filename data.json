@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-08-01T10:34:13.5690297Z",
+  "lastUpdate": "2026-08-02T20:06:14.9670309Z",
   "pad": "PAD E1",
   "pozos": [
     {
@@ -230,8 +230,8 @@
         },
         {
           "formacion": "CENTENARIO",
-          "md": "0",
-          "tvd": "0"
+          "md": "790.8",
+          "tvd": "787.7"
         },
         {
           "formacion": "MULICHINGO",
