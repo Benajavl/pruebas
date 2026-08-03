@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-08-03T01:35:59.8453001Z",
+  "lastUpdate": "2026-08-03T01:36:47.2919145Z",
   "pad": "PAD E1",
   "pozos": [
     {
@@ -235,8 +235,8 @@
         },
         {
           "formacion": "MULICHINGO",
-          "md": "0",
-          "tvd": "0"
+          "md": "1758",
+          "tvd": "1747"
         },
         {
           "formacion": "QUINTUCO",
@@ -263,7 +263,7 @@
       "tipo": "CO"
     },
     {
-      "comentarios": "Cementa guia off line. Seccion AB colocada sin bridas 2 1/16' 5k -10k. Tope de collar 380.23mts. Realiza perfil CBL VDL .",
+      "comentarios": "Cementa guia off line. Seccion AB colocada sin bridas 2 1/16' 5k -10k. Tope de collar 380.23mts. Realiza perfil CBL VDL .BPV ST 7'N° 12.",
       "estado": "ACTIVO",
       "fases": [
         {
