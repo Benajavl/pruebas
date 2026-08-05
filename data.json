@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-08-05T17:22:35.7030185Z",
+  "lastUpdate": "2026-08-05T17:24:02.5315871Z",
   "pad": "PAD E1",
   "pozos": [
     {
@@ -98,7 +98,7 @@
           "comentario": "13 3/8, 54.5, K-55, BTC.Cement Tipo A",
           "fase": "GUIA",
           "fit": "1600",
-          "masp": "0",
+          "masp": "220",
           "mw": "1200",
           "profundidad": "389m.",
           "zapato": "383.54m."
@@ -435,7 +435,7 @@
       "tipo": "CO"
     },
     {
-      "comentarios": "Cementa guia off line. Seccion AB colocada . Tope de collar 380,36 mtsr.Perfil CBL VDL realizado",
+      "comentarios": "Sin comentario",
       "estado": "ACTIVO",
       "fases": [
         {
