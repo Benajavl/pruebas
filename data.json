@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-08-05T17:24:02.5315871Z",
+  "lastUpdate": "2026-08-05T17:24:46.9174387Z",
   "pad": "PAD E1",
   "pozos": [
     {
@@ -435,7 +435,7 @@
       "tipo": "CO"
     },
     {
-      "comentarios": "Sin comentario",
+      "comentarios": "CBLs: ok. Interior con 1200 g/l.",
       "estado": "ACTIVO",
       "fases": [
         {
