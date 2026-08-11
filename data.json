@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-08-11T16:24:33.9610487Z",
+  "lastUpdate": "2026-08-11T16:25:17.6764002Z",
   "pad": "PAD E1",
   "pozos": [
     {
@@ -435,7 +435,7 @@
       "tipo": "CO"
     },
     {
-      "comentarios": "CBLs: ok. ",
+      "comentarios": "CBLs: ok. PC2 aislación: 2614 m MD / 2598 mTVD                             PC2 aislación: 2614 m MD / 2598 mTVD",
       "estado": "ACTIVO",
       "fases": [
         {
