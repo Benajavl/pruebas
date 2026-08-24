@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-08-24T01:16:17.3709687Z",
+  "lastUpdate": "2026-08-24T01:17:07.0251931Z",
   "pad": "PAD E1",
   "pozos": [
     {
@@ -435,7 +435,7 @@
       "tipo": "CO"
     },
     {
-      "comentarios": "CBLs: ok. PC1 quintuco: 2126 m MD / 2112 mTVD                             PC2 en VM: 2614 m MD / 2598 mTVD  Cancela frac view en lateral.Perfora normal. Ahoga con 2030 G/l. Cementa off line con perdida de 17 m3. BPV -ST 68 colocada.",
+      "comentarios": "CBLs: ok. PC1 quintuco: 2126 m MD / 2112 mTVD                             PC2 en VM: 2614 m MD / 2598 mTVD  Cancela frac view en lateral.Perfora normal. Ahoga con 2030 G/l. Cementa off line con perdida de 17 m3. BPV -ST 68 colocada.Brida con manometro en seccion A sin bulones por falta de ARO R24.Valvulas manuales seccin B cerradas y manometro colocado.",
       "estado": "ACTIVO",
       "fases": [
         {
