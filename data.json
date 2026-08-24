@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-08-24T01:12:34.9000603Z",
+  "lastUpdate": "2026-08-24T01:13:41.8759023Z",
   "pad": "PAD E1",
   "pozos": [
     {
@@ -263,7 +263,7 @@
       "tipo": "CO"
     },
     {
-      "comentarios": "Cementa guia off line. Seccion AB colocada sin bridas 2 1/16' 5k -10k. Tope de collar 380.23mts. Realiza perfil CBL VDL .BPV ST 7'N° 12.",
+      "comentarios": "Cementa guia off line. Seccion AB colocada sin bridas 2 1/16' 5k -10k. Tope de collar 380.23mts. Realiza perfil CBL VDL .Cambia Bha lucida por falla. Baja ontrack y mtf.",
       "estado": "ACTIVO",
       "fases": [
         {
