@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-08-11T16:46:31.3361064Z",
+  "lastUpdate": "2026-08-24T01:12:34.9000603Z",
   "pad": "PAD E1",
   "pozos": [
     {
@@ -278,9 +278,9 @@
         {
           "comentario": "7¾\" 29.7, P-110 W463, Cemento tipo G",
           "fase": "INTERMEDIA",
-          "fit": "0",
-          "masp": "0",
-          "mw": "0",
+          "fit": "2300",
+          "masp": "1075",
+          "mw": "1900",
           "profundidad": "1913",
           "zapato": "1906.83"
         },
