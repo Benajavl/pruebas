@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-11-12T15:56:16.5037206Z",
+  "lastUpdate": "2026-11-12T15:57:02.7095829Z",
   "pad": "PAD E1",
   "pozos": [
     {
@@ -177,7 +177,7 @@
       "tipo": "CO"
     },
     {
-      "comentarios": "CBL guia ok. Falta inter.Drill out c/ trepano Ulterra 12.25' tricono. Perfora intermedia Direccional Baker 8.75 , trepano Ulterra. BPV de 7'- ST 22 colocada.",
+      "comentarios": "Sin comentario",
       "estado": "ACTIVO",
       "fases": [
         {
@@ -225,23 +225,23 @@
         },
         {
           "formacion": "RAYOSO",
-          "md": "360",
-          "tvd": "360"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "CENTENARIO",
-          "md": "790.8",
-          "tvd": "787.7"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "MULICHINGO",
-          "md": "1761.9",
-          "tvd": "1750.9"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "QUINTUCO",
-          "md": "1868.3",
-          "tvd": "1856.8"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "QTCO.MEDIO",
@@ -263,26 +263,26 @@
       "tipo": "OIB"
     },
     {
-      "comentarios": "Cementa guia off line. Seccion AB colocada sin bridas 2 1/16' 5k -10k. Tope de collar 380.23mts. Realiza perfil CBL VDL .Cambia Bha lucida por falla. Baja ontrack y mtf.PC en 2480 m. ",
+      "comentarios": "Sin comentario",
       "estado": "ACTIVO",
       "fases": [
         {
-          "comentario": "13 3/8, 54.5, K-55, BTC.Cement Tipo A",
+          "comentario": "Sin comentario",
           "fase": "GUIA",
-          "fit": "1600",
-          "masp": "230",
-          "mw": "1200",
-          "profundidad": "397",
-          "zapato": "391.89"
+          "fit": "0",
+          "masp": "0",
+          "mw": "0",
+          "profundidad": "0",
+          "zapato": "0"
         },
         {
-          "comentario": "7¾\" 29.7, P-110 W463, Cemento tipo G",
+          "comentario": "Sin comentario",
           "fase": "INTERMEDIA",
-          "fit": "2300",
-          "masp": "1075",
-          "mw": "1900",
-          "profundidad": "1913",
-          "zapato": "1906.83"
+          "fit": "0",
+          "masp": "0",
+          "mw": "0",
+          "profundidad": "0",
+          "zapato": "0"
         },
         {
           "comentario": "Sin comentario",
@@ -311,33 +311,33 @@
         },
         {
           "formacion": "RAYOSO",
-          "md": "360",
-          "tvd": "360"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "CENTENARIO",
-          "md": "799",
-          "tvd": "791.7"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "MULICHINGO",
-          "md": "1770",
-          "tvd": "1754.8"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "QUINTUCO",
-          "md": "1878.5",
-          "tvd": "1863.1"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "QTCO.MEDIO",
-          "md": "2210.1",
-          "tvd": "2194.7"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "VACA MUERTA",
-          "md": "2947.3",
-          "tvd": "2481.9"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "TD/TVD",
@@ -353,30 +353,30 @@
       "estado": "ACTIVO",
       "fases": [
         {
-          "comentario": "13 3/8, 54.5, K-55, BTC. Cement Tipo A",
+          "comentario": "Sin comentario",
           "fase": "GUIA",
-          "fit": "1600",
-          "masp": "220",
-          "mw": "1200",
-          "profundidad": "395",
-          "zapato": "390.14"
+          "fit": "0",
+          "masp": "0",
+          "mw": "0",
+          "profundidad": "0",
+          "zapato": "0"
         },
         {
-          "comentario": "9 5/8, 40 lb/ft,P110-ICY, TBL.Cement Tipo G",
+          "comentario": "Sin comentario",
           "fase": "INTERMEDIA",
-          "fit": "2300",
-          "masp": "1085",
-          "mw": "1900",
-          "profundidad": "1941",
-          "zapato": "1935.97"
+          "fit": "0",
+          "masp": "0",
+          "mw": "0",
+          "profundidad": "0",
+          "zapato": "0"
         },
         {
-          "comentario": "Landing Point: 3053,7 MD / 2866,17 TVD",
+          "comentario": "Sin comentario",
           "fase": "AISLACION",
           "fit": "0",
           "masp": "0",
           "mw": "0",
-          "profundidad": "6624",
+          "profundidad": "0",
           "zapato": "0"
         },
         {
