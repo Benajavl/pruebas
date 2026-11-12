@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-11-12T15:57:02.7095829Z",
+  "lastUpdate": "2026-11-12T15:57:48.2419215Z",
   "pad": "PAD E1",
   "pozos": [
     {
@@ -349,7 +349,7 @@
       "tipo": "OMA"
     },
     {
-      "comentarios": "Cementa guia off line. Seccion AB colocada sin bridas 2 1/16' 5k -10k. Tope de collar 377.94 mts. Perfil CBL VDL realizado. Se realizo perfil a la intermedia 1. Prueba BOP. Cambia IBOP,doble pin y wash pipe en TDS.Realiza DFIT con 2200 g/l OK. ( -0,5 m3).Cambio BHA 8¾' por 6¾' y perforo hasta 3045 m. Coloca BPV - ST 66.",
+      "comentarios": "Sin comentario",
       "estado": "ACTIVO",
       "fases": [
         {
@@ -397,64 +397,64 @@
         },
         {
           "formacion": "RAYOSO",
-          "md": "360",
-          "tvd": "360"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "CENTENARIO",
-          "md": "826",
-          "tvd": "815.88"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "MULICHINGO",
-          "md": "1778",
-          "tvd": "1750.83"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "QUINTUCO",
-          "md": "1891",
-          "tvd": "1863.76"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "QTCO.MEDIO",
-          "md": "1891",
-          "tvd": "1863.76"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "VACA MUERTA",
-          "md": "1891",
-          "tvd": "1863.76"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "TD/TVD",
-          "md": "1891",
-          "tvd": "1863.76"
+          "md": "0",
+          "tvd": "0"
         }
       ],
       "pozo": "Lca-3225",
       "tipo": "OIB"
     },
     {
-      "comentarios": "CBLs: ok. PC1 quintuco: 2126 m MD / 2112 mTVD                             PC2 en VM: 2614 m MD / 2598 mTVD  Cancela frac view en lateral.Perfora normal. Ahoga con 2030 G/l. Cementa off line con perdida de 17 m3. BPV -ST 68 colocada.Brida con manometro en seccion A sin bulones por falta de ARO R24.Valvulas manuales seccin B cerradas y manometro colocado.",
+      "comentarios": "Sin comentario",
       "estado": "ACTIVO",
       "fases": [
         {
-          "comentario": "13 3/8, 54.5, K-55, BTC.Cement Tipo A",
+          "comentario": "Sin comentario",
           "fase": "GUIA",
-          "fit": "1600",
-          "masp": "230",
-          "mw": "1200",
-          "profundidad": "398",
-          "zapato": "392.6"
+          "fit": "0",
+          "masp": "0",
+          "mw": "0",
+          "profundidad": "0",
+          "zapato": "0"
         },
         {
-          "comentario": "7 ¾\", 29.7, P110-W463. Cemento tipo G. BPV -ST 01 colocada.",
+          "comentario": "Sin comentario",
           "fase": "INTERMEDIA",
-          "fit": "2300",
-          "masp": "1100",
-          "mw": "1900",
-          "profundidad": "1925",
-          "zapato": "1917.41"
+          "fit": "0",
+          "masp": "0",
+          "mw": "0",
+          "profundidad": "0",
+          "zapato": "0"
         },
         {
           "comentario": "Sin comentario",
@@ -462,8 +462,8 @@
           "fit": "0",
           "masp": "0",
           "mw": "0",
-          "profundidad": "6475",
-          "zapato": "6464.08"
+          "profundidad": "0",
+          "zapato": "0"
         },
         {
           "comentario": "Sin comentario",
@@ -483,37 +483,37 @@
         },
         {
           "formacion": "RAYOSO",
-          "md": "360",
-          "tvd": "360"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "CENTENARIO",
-          "md": "795",
-          "tvd": "790.9"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "MULICHINGO",
-          "md": "1769",
-          "tvd": "1758.2"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "QUINTUCO",
-          "md": "1769",
-          "tvd": "1863"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "QTCO.MEDIO",
-          "md": "1769",
-          "tvd": "2196"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "VACA MUERTA",
-          "md": "1769",
-          "tvd": "2482.2"
+          "md": "0",
+          "tvd": "0"
         },
         {
           "formacion": "TD/TVD",
-          "md": "1769",
+          "md": "0",
           "tvd": "0"
         }
       ],
