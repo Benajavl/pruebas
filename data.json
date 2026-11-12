@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-11-12T15:54:43.0312887Z",
+  "lastUpdate": "2026-11-12T15:55:26.8589076Z",
   "pad": "PAD E1",
   "pozos": [
     {
@@ -215,42 +215,6 @@
           "mw": "0",
           "profundidad": "0",
           "zapato": "0"
-        },
-        {
-          "comentario": "13 3/8, 54.5, K-55, BTC.Cement Tipo A",
-          "fase": "GUIA",
-          "fit": "1600",
-          "masp": "230",
-          "mw": "1200",
-          "profundidad": "397",
-          "zapato": "391.89"
-        },
-        {
-          "comentario": "7¾\" 29.7, P-110 W463, Cemento tipo G",
-          "fase": "INTERMEDIA",
-          "fit": "2300",
-          "masp": "1075",
-          "mw": "1900",
-          "profundidad": "1913",
-          "zapato": "1906.83"
-        },
-        {
-          "comentario": "Sin comentario",
-          "fase": "AISLACION",
-          "fit": "0",
-          "masp": "0",
-          "mw": "0",
-          "profundidad": "0",
-          "zapato": "0"
-        },
-        {
-          "comentario": "Sin comentario",
-          "fase": "AISLACION_REFUERZO",
-          "fit": "0",
-          "masp": "0",
-          "mw": "0",
-          "profundidad": "0",
-          "zapato": "0"
         }
       ],
       "formaciones": [
@@ -288,46 +252,6 @@
           "formacion": "VACA MUERTA",
           "md": "0",
           "tvd": "0"
-        },
-        {
-          "formacion": "TD/TVD",
-          "md": "0",
-          "tvd": "0"
-        },
-        {
-          "formacion": "GR.NQN",
-          "md": "0",
-          "tvd": "0"
-        },
-        {
-          "formacion": "RAYOSO",
-          "md": "360",
-          "tvd": "360"
-        },
-        {
-          "formacion": "CENTENARIO",
-          "md": "799",
-          "tvd": "791.7"
-        },
-        {
-          "formacion": "MULICHINGO",
-          "md": "1770",
-          "tvd": "1754.8"
-        },
-        {
-          "formacion": "QUINTUCO",
-          "md": "1878.5",
-          "tvd": "1863.1"
-        },
-        {
-          "formacion": "QTCO.MEDIO",
-          "md": "2210.1",
-          "tvd": "2194.7"
-        },
-        {
-          "formacion": "VACA MUERTA",
-          "md": "2947.3",
-          "tvd": "2481.9"
         },
         {
           "formacion": "TD/TVD",
@@ -339,45 +263,9 @@
       "tipo": "OIB"
     },
     {
-      "comentarios": "CBL guia ok. Falta inter.Drill out c/ trepano Ulterra 12.25' tricono. Perfora intermedia Direccional Baker 8.75 , trepano Ulterra. BPV de 7'- ST 22 colocada.",
+      "comentarios": "Cementa guia off line. Seccion AB colocada sin bridas 2 1/16' 5k -10k. Tope de collar 380.23mts. Realiza perfil CBL VDL .Cambia Bha lucida por falla. Baja ontrack y mtf.PC en 2480 m. ",
       "estado": "ACTIVO",
       "fases": [
-        {
-          "comentario": "13 3/8, 54.5, K-55, BTC.Cement Tipo A",
-          "fase": "GUIA",
-          "fit": "1600",
-          "masp": "230",
-          "mw": "1200",
-          "profundidad": "392m.",
-          "zapato": "386.9m."
-        },
-        {
-          "comentario": "Collar: 1892.77",
-          "fase": "INTERMEDIA",
-          "fit": "0",
-          "masp": "0",
-          "mw": "0",
-          "profundidad": "1915",
-          "zapato": "1908.47"
-        },
-        {
-          "comentario": "Sin comentario",
-          "fase": "AISLACION",
-          "fit": "0",
-          "masp": "0",
-          "mw": "0",
-          "profundidad": "0",
-          "zapato": "0"
-        },
-        {
-          "comentario": "Sin comentario",
-          "fase": "AISLACION_REFUERZO",
-          "fit": "0",
-          "masp": "0",
-          "mw": "0",
-          "profundidad": "0",
-          "zapato": "0"
-        },
         {
           "comentario": "13 3/8, 54.5, K-55, BTC.Cement Tipo A",
           "fase": "GUIA",
@@ -428,46 +316,6 @@
         },
         {
           "formacion": "CENTENARIO",
-          "md": "790.8",
-          "tvd": "787.7"
-        },
-        {
-          "formacion": "MULICHINGO",
-          "md": "1761.9",
-          "tvd": "1750.9"
-        },
-        {
-          "formacion": "QUINTUCO",
-          "md": "1868.3",
-          "tvd": "1856.8"
-        },
-        {
-          "formacion": "QTCO.MEDIO",
-          "md": "0",
-          "tvd": "0"
-        },
-        {
-          "formacion": "VACA MUERTA",
-          "md": "0",
-          "tvd": "0"
-        },
-        {
-          "formacion": "TD/TVD",
-          "md": "0",
-          "tvd": "0"
-        },
-        {
-          "formacion": "GR.NQN",
-          "md": "0",
-          "tvd": "0"
-        },
-        {
-          "formacion": "RAYOSO",
-          "md": "360",
-          "tvd": "360"
-        },
-        {
-          "formacion": "CENTENARIO",
           "md": "799",
           "tvd": "791.7"
         },
@@ -497,8 +345,8 @@
           "tvd": "0"
         }
       ],
-      "pozo": "Lca-3223",
-      "tipo": "OIB"
+      "pozo": "Lca-3224",
+      "tipo": "OMA"
     },
     {
       "comentarios": "Cementa guia off line. Seccion AB colocada sin bridas 2 1/16' 5k -10k. Tope de collar 377.94 mts. Perfil CBL VDL realizado. Se realizo perfil a la intermedia 1. Prueba BOP. Cambia IBOP,doble pin y wash pipe en TDS.Realiza DFIT con 2200 g/l OK. ( -0,5 m3).Cambio BHA 8¾' por 6¾' y perforo hasta 3045 m. Coloca BPV - ST 66.",
