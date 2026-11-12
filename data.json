@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-11-12T15:45:40.4978230Z",
+  "lastUpdate": "2026-11-12T15:46:35.2763884Z",
   "pad": "PAD E1",
   "pozos": [
     {
@@ -174,7 +174,7 @@
         }
       ],
       "pozo": "Lca-3222",
-      "tipo": "OIB"
+      "tipo": "CO"
     },
     {
       "comentarios": "CBL guia ok. Falta inter.Drill out c/ trepano Ulterra 12.25' tricono. Perfora intermedia Direccional Baker 8.75 , trepano Ulterra. BPV de 7'- ST 22 colocada.",
