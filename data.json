@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-11-12T15:46:35.2763884Z",
+  "lastUpdate": "2026-11-12T15:47:23.5849899Z",
   "pad": "PAD E1",
   "pozos": [
     {
@@ -11,20 +11,20 @@
         {
           "comentario": "13 3/8, 54.5, K-55, BTCCement Tipo A",
           "fase": "GUIA ",
-          "fit": "1600",
-          "masp": "212",
-          "mw": "1200",
-          "profundidad": "388m.",
-          "zapato": "382.55m."
+          "fit": "0",
+          "masp": "0",
+          "mw": "0",
+          "profundidad": "619",
+          "zapato": "614"
         },
         {
           "comentario": "9 5/8, 40 lb/ft,P110-ICY, TBL.Cement Tipo G",
           "fase": "INTERMEDIA",
-          "fit": "2300",
-          "masp": "1085",
-          "mw": "1900",
-          "profundidad": "1923m.",
-          "zapato": "1918,1m."
+          "fit": "0",
+          "masp": "0",
+          "mw": "0",
+          "profundidad": "0",
+          "zapato": "0"
         },
         {
           "comentario": "Sin comentario",
@@ -97,11 +97,11 @@
         {
           "comentario": "13 3/8, 54.5, K-55, BTC.Cement Tipo A",
           "fase": "GUIA",
-          "fit": "1600",
-          "masp": "220",
-          "mw": "1200",
-          "profundidad": "389m.",
-          "zapato": "383.54m."
+          "fit": "0",
+          "masp": "0",
+          "mw": "0",
+          "profundidad": "0",
+          "zapato": "0"
         },
         {
           "comentario": "Collar top: 1881,07",
