@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-11-12T15:47:23.5849899Z",
+  "lastUpdate": "2026-11-12T15:48:16.6071362Z",
   "pad": "PAD E1",
   "pozos": [
     {
@@ -18,7 +18,7 @@
           "zapato": "614"
         },
         {
-          "comentario": "9 5/8, 40 lb/ft,P110-ICY, TBL.Cement Tipo G",
+          "comentario": "Sin comentario",
           "fase": "INTERMEDIA",
           "fit": "0",
           "masp": "0",
@@ -53,8 +53,8 @@
         },
         {
           "formacion": "RAYOSO",
-          "md": "360",
-          "tvd": "360"
+          "md": "598",
+          "tvd": "0"
         },
         {
           "formacion": "CENTENARIO",
@@ -104,13 +104,13 @@
           "zapato": "0"
         },
         {
-          "comentario": "Collar top: 1881,07",
+          "comentario": "Sin comentario",
           "fase": "INTERMEDIA",
           "fit": "0",
           "masp": "0",
           "mw": "0",
-          "profundidad": "1903",
-          "zapato": "1896,84"
+          "profundidad": "0",
+          "zapato": "0"
         },
         {
           "comentario": "Sin comentario",
