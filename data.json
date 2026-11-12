@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-11-12T15:39:08.0469267Z",
+  "lastUpdate": "2026-11-12T15:40:26.2721719Z",
   "pad": "PAD E1",
   "pozos": [
     {
@@ -431,7 +431,7 @@
           "tvd": "1863.76"
         }
       ],
-      "pozo": "Lca-3377",
+      "pozo": "Lca-3225",
       "tipo": "CO"
     },
     {
@@ -517,7 +517,7 @@
           "tvd": "0"
         }
       ],
-      "pozo": "Lca-3378",
+      "pozo": "Lca-3226",
       "tipo": "OIB"
     }
   ],
