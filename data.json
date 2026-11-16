@@ -1,15 +1,15 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-11-16T18:01:53.7792310Z",
+  "lastUpdate": "2026-11-16T18:17:54.5945745Z",
   "pad": "PAD C11",
   "pozos": [
     {
-      "comentarios": "Cementa guia off line. Seccion AB colocada sin bridas 2 1/16' 5k -10k. Tope de collar 601,78 mts. ",
+      "comentarios": "Sin comentario",
       "estado": "ACTIVO",
       "fases": [
         {
-          "comentario": "13 3/8, 54.5, K-55, BTCCement Tipo A",
+          "comentario": "13 3/8, 54.5, K-55, BTC Cement Tipo A",
           "fase": "GUIA ",
           "fit": "0",
           "masp": "0",
@@ -91,7 +91,7 @@
       "tipo": "OMA"
     },
     {
-      "comentarios": "Sin comentario",
+      "comentarios": "Cementa guia off line. Seccion AB colocada sin bridas 2 1/16' 5k -10k. Tope de collar 601,78 mts. ",
       "estado": "ACTIVO",
       "fases": [
         {
@@ -263,7 +263,7 @@
       "tipo": "OIB"
     },
     {
-      "comentarios": "Sin comentario",
+      "comentarios": "Cementa guia off line. Seccion AB colocada sin bridas 2 1/16' 5k -10k. Tope de collar 609,38 mts. ",
       "estado": "ACTIVO",
       "fases": [
         {
@@ -272,8 +272,8 @@
           "fit": "0",
           "masp": "0",
           "mw": "0",
-          "profundidad": "0",
-          "zapato": "0"
+          "profundidad": "626",
+          "zapato": "621.45"
         },
         {
           "comentario": "Sin comentario",
