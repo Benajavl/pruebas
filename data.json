@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-11-16T18:17:54.5945745Z",
+  "lastUpdate": "2026-11-16T18:18:36.9520451Z",
   "pad": "PAD C11",
   "pozos": [
     {
@@ -139,7 +139,7 @@
         },
         {
           "formacion": "RAYOSO",
-          "md": "0",
+          "md": "598",
           "tvd": "0"
         },
         {
@@ -311,7 +311,7 @@
         },
         {
           "formacion": "RAYOSO",
-          "md": "0",
+          "md": "598",
           "tvd": "0"
         },
         {
@@ -444,8 +444,8 @@
           "fit": "0",
           "masp": "0",
           "mw": "0",
-          "profundidad": "0",
-          "zapato": "0"
+          "profundidad": "624",
+          "zapato": "618.74"
         },
         {
           "comentario": "Sin comentario",
@@ -483,7 +483,7 @@
         },
         {
           "formacion": "RAYOSO",
-          "md": "0",
+          "md": "598",
           "tvd": "0"
         },
         {
