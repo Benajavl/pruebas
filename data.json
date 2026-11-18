@@ -1,7 +1,7 @@
 {
   "equipo": "Plus-02",
   "estado": "ACTIVO",
-  "lastUpdate": "2026-11-16T18:27:34.8845757Z",
+  "lastUpdate": "2026-11-18T11:08:56.7311489Z",
   "pad": "PAD C11",
   "pozos": [
     {
@@ -91,7 +91,7 @@
       "tipo": "OMA"
     },
     {
-      "comentarios": "Perfora camara de 75 mts con tricono y spud mud. Cambia y bahja BHA direcional. Cementa guia off line. Seccion AB colocada sin bridas 2 1/16' 5k -10k. Tope de collar 601,78 mts. ",
+      "comentarios": "Perfora camara de 75 mts con tricono y spud mud. Cambia y bahja BHA direcional. Cementa guia off line. Seccion AB colocada sin bridas 2 1/16' 5k -10k. Tope de collar 601,78 mts. Se realiza perfil guia.",
       "estado": "ACTIVO",
       "fases": [
         {
@@ -435,7 +435,7 @@
       "tipo": "OIB"
     },
     {
-      "comentarios": "Perfora en una sola carrera con BHA direccional, Realiza maniobra de calibre por tracciones. Entuba sin terminar",
+      "comentarios": "Perfora en una sola carrera con BHA direccional, Realiza maniobra de calibre por tracciones. Se realiza perfirl guia.",
       "estado": "ACTIVO",
       "fases": [
         {
